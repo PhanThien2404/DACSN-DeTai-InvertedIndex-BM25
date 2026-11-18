@@ -1,0 +1,962 @@
+[
+  {
+    "query_id": 1,
+    "query_text": "Cho em hỏi ký hiệu mã trường mình lúc điền nguyện vọng trên web Bộ là chữ gì ạ?",
+    "ground_truth_doc_id": 1,
+    "expected_category": "Thông tin chung",
+    "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+    "query_type": "Paraphrased / Tự nhiên"
+  },
+  {
+    "query_id": 2,
+    "query_text": "Khi làm hồ sơ xét tuyển đại học trên mạng thì mã định danh của ĐH Nha Trang viết tắt là mấy chữ cái?",
+    "ground_truth_doc_id": 1,
+    "expected_category": "Thông tin chung",
+    "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+    "query_type": "GenAI Paraphrase (Lexical Gap)"
+  },
+  {
+    "query_id": 3,
+    "query_text": "Khuôn viên chính trên đồi La San nằm ở số mấy đường nào tại Nha Trang?",
+    "ground_truth_doc_id": 2,
+    "expected_category": "Thông tin chung",
+    "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+    "query_type": "Paraphrased / Tự nhiên"
+  },
+  {
+    "query_id": 4,
+    "query_text": "Trụ sở chính của trường đại học Nha Trang tọa lạc ở địa chỉ nào vậy?",
+    "ground_truth_doc_id": 2,
+    "expected_category": "Thông tin chung",
+    "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+    "query_type": "GenAI Paraphrase (Tự nhiên)"
+  },
+  {
+    "query_id": 5,
+    "query_text": "NTU là đại học nhà nước hay trường tư vậy mọi người?",
+    "ground_truth_doc_id": 3,
+    "expected_category": "Thông tin chung",
+    "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+    "query_type": "Từ đồng nghĩa (Lexical Gap)"
+  },
+  {
+    "query_id": 6,
+    "query_text": "Trường mình trực thuộc Bộ Giáo dục đào tạo quản lý và thành lập từ năm nào?",
+    "ground_truth_doc_id": 3,
+    "expected_category": "Thông tin chung",
+    "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+    "query_type": "GenAI Paraphrase (Tự nhiên)"
+  },
+  {
+    "query_id": 7,
+    "query_text": "Em muốn gọi điện hỏi phòng đào tạo về tuyển sinh thì liên hệ số máy nào?",
+    "ground_truth_doc_id": 4,
+    "expected_category": "Thông tin chung",
+    "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+    "query_type": "Paraphrased / Tự nhiên"
+  },
+  {
+    "query_id": 8,
+    "query_text": "Cho xin địa chỉ hòm thư email và fanpage chính thức của bộ phận tư vấn tuyển sinh nhà trường?",
+    "ground_truth_doc_id": 4,
+    "expected_category": "Thông tin chung",
+    "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+    "query_type": "GenAI Paraphrase (Lexical Gap)"
+  },
+  {
+    "query_id": 9,
+    "query_text": "Mỗi khóa trường tuyển tổng cộng khoảng bao nhiêu tân sinh viên cho tất cả các ngành?",
+    "ground_truth_doc_id": 5,
+    "expected_category": "Thông tin chung",
+    "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+    "query_type": "Từ đồng nghĩa (Lexical Gap)"
+  },
+  {
+    "query_id": 10,
+    "query_text": "Hiện tại trường đào tạo khoảng bao nhiêu ngành học ở bậc đại học chính quy?",
+    "ground_truth_doc_id": 5,
+    "expected_category": "Thông tin chung",
+    "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+    "query_type": "GenAI Paraphrase (Tự nhiên)"
+  },
+  {
+    "query_id": 11,
+    "query_text": "Ngoài hệ chuẩn đại trà trường có mở lớp chất lượng cao hay hệ POHE không?",
+    "ground_truth_doc_id": 6,
+    "expected_category": "Thông tin chung",
+    "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+    "query_type": "Truy vấn thực tế"
+  },
+  {
+    "query_id": 12,
+    "query_text": "Chương trình đào tạo định hướng ứng dụng và chương trình song ngữ Anh Việt của trường là như thế nào?",
+    "ground_truth_doc_id": 6,
+    "expected_category": "Thông tin chung",
+    "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+    "query_type": "GenAI Paraphrase (Tự nhiên)"
+  },
+  {
+    "query_id": 13,
+    "query_text": "Bằng kỹ sư cử nhân của trường cấp có dùng đi xin việc toàn quốc hay đi du học được không?",
+    "ground_truth_doc_id": 7,
+    "expected_category": "Thông tin chung",
+    "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+    "query_type": "Paraphrased / Tự nhiên"
+  },
+  {
+    "query_id": 14,
+    "query_text": "Tốt nghiệp xong bằng đại học của trường có thuộc hệ thống văn bằng quốc gia hợp pháp không?",
+    "ground_truth_doc_id": 7,
+    "expected_category": "Thông tin chung",
+    "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+    "query_type": "GenAI Paraphrase (Lexical Gap)"
+  },
+  {
+    "query_id": 15,
+    "query_text": "Văn phòng khoa CNTT nằm ở khu nhà nào trong trường để em lên nộp đơn?",
+    "ground_truth_doc_id": 8,
+    "expected_category": "Thông tin chung",
+    "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+    "query_type": "Truy vấn thực tế"
+  },
+  {
+    "query_id": 16,
+    "query_text": "Bộ môn Kỹ thuật phần mềm và Mạng máy tính thuộc khoa nào quản lý và đặt ở tòa nhà nào?",
+    "ground_truth_doc_id": 8,
+    "expected_category": "Thông tin chung",
+    "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+    "query_type": "GenAI Paraphrase (Tự nhiên)"
+  },
+  {
+    "query_id": 17,
+    "query_text": "Năm nay trường nhận thí sinh theo mấy hình thức xét tuyển đầu vào?",
+    "ground_truth_doc_id": 9,
+    "expected_category": "Phương thức xét tuyển",
+    "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+    "query_type": "Từ đồng nghĩa (Lexical Gap)"
+  },
+  {
+    "query_id": 18,
+    "query_text": "Những cách thức xét tuyển vào đại học chính quy của trường gồm xét học bạ, điểm thi THPT và gì nữa?",
+    "ground_truth_doc_id": 9,
+    "expected_category": "Phương thức xét tuyển",
+    "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+    "query_type": "GenAI Paraphrase (Lexical Gap)"
+  },
+  {
+    "query_id": 19,
+    "query_text": "Nộp học bạ cấp 3 thì lấy điểm tổng kết lớp 11 với học kỳ 1 lớp 12 hay sao ạ?",
+    "ground_truth_doc_id": 10,
+    "expected_category": "Phương thức xét tuyển",
+    "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+    "query_type": "Truy vấn thực tế"
+  },
+  {
+    "query_id": 20,
+    "query_text": "Xét tuyển học bạ THPT thì trường cộng điểm trung bình của 3 học kỳ nào?",
+    "ground_truth_doc_id": 10,
+    "expected_category": "Phương thức xét tuyển",
+    "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+    "query_type": "GenAI Paraphrase (Tự nhiên)"
+  },
+  {
+    "query_id": 21,
+    "query_text": "Em tốt nghiệp cấp 3 từ năm ngoái giờ nộp hồ sơ xét học bạ lại có được nhận không?",
+    "ground_truth_doc_id": 11,
+    "expected_category": "Phương thức xét tuyển",
+    "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+    "query_type": "Từ đồng nghĩa (Lexical Gap)"
+  },
+  {
+    "query_id": 22,
+    "query_text": "Thí sinh tự do thi lại hoặc đã ra trường THPT các khóa trước có nộp học bạ xét tuyển được không?",
+    "ground_truth_doc_id": 11,
+    "expected_category": "Phương thức xét tuyển",
+    "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+    "query_type": "GenAI Paraphrase (Tự nhiên)"
+  },
+  {
+    "query_id": 23,
+    "query_text": "Thi đánh giá năng lực ĐHQG TPHCM phải đạt tối thiểu mấy trăm điểm mới đủ sàn nộp vào trường?",
+    "ground_truth_doc_id": 12,
+    "expected_category": "Phương thức xét tuyển",
+    "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+    "query_type": "Truy vấn thực tế"
+  },
+  {
+    "query_id": 24,
+    "query_text": "Điểm nhận hồ sơ tối thiểu đối với kỳ thi đánh giá năng lực của ĐHQG Hà Nội và TPHCM là bao nhiêu?",
+    "ground_truth_doc_id": 12,
+    "expected_category": "Phương thức xét tuyển",
+    "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+    "query_type": "GenAI Paraphrase (Lexical Gap)"
+  },
+  {
+    "query_id": 25,
+    "query_text": "Em có bằng IELTS 5.5 thì có được đổi thành điểm 10 môn Anh khi xét tuyển không?",
+    "ground_truth_doc_id": 13,
+    "expected_category": "Phương thức xét tuyển",
+    "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+    "query_type": "Truy vấn thực tế"
+  },
+  {
+    "query_id": 26,
+    "query_text": "Có chứng chỉ TOEIC hay IELTS quốc tế còn hạn thì được quy đổi sang điểm môn tiếng Anh mức mấy điểm?",
+    "ground_truth_doc_id": 13,
+    "expected_category": "Phương thức xét tuyển",
+    "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+    "query_type": "GenAI Paraphrase (Tự nhiên)"
+  },
+  {
+    "query_id": 27,
+    "query_text": "Đạt giải ba học sinh giỏi quốc gia cấp 3 có được vào thẳng đại học không cần thi không?",
+    "ground_truth_doc_id": 14,
+    "expected_category": "Phương thức xét tuyển",
+    "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+    "query_type": "Từ đồng nghĩa (Lexical Gap)"
+  },
+  {
+    "query_id": 28,
+    "query_text": "Học sinh đạt giải kỳ thi Khoa học kỹ thuật cấp quốc gia có thuộc diện tuyển thẳng vào trường không?",
+    "ground_truth_doc_id": 14,
+    "expected_category": "Phương thức xét tuyển",
+    "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+    "query_type": "GenAI Paraphrase (Lexical Gap)"
+  },
+  {
+    "query_id": 29,
+    "query_text": "Xét vào ngành du lịch hay ngôn ngữ Anh có đòi hỏi điểm liệt hay điểm sàn riêng môn tiếng Anh không?",
+    "ground_truth_doc_id": 15,
+    "expected_category": "Phương thức xét tuyển",
+    "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+    "query_type": "Paraphrased / Tự nhiên"
+  },
+  {
+    "query_id": 30,
+    "query_text": "Các ngành như Quản trị khách sạn hay Ngôn ngữ Anh có áp dụng điều kiện điểm sàn môn Tiếng Anh không?",
+    "ground_truth_doc_id": 15,
+    "expected_category": "Phương thức xét tuyển",
+    "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+    "query_type": "GenAI Paraphrase (Tự nhiên)"
+  },
+  {
+    "query_id": 31,
+    "query_text": "Để nguyện vọng 2 hay nguyện vọng 3 vào trường thì điểm chuẩn có bị tính cao hơn nguyện vọng 1 không?",
+    "ground_truth_doc_id": 16,
+    "expected_category": "Phương thức xét tuyển",
+    "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+    "query_type": "Truy vấn thực tế"
+  },
+  {
+    "query_id": 32,
+    "query_text": "Khi xét tuyển các nguyện vọng được xét công bằng theo điểm từ cao xuống thấp hay ưu tiên nguyện vọng 1 trước?",
+    "ground_truth_doc_id": 16,
+    "expected_category": "Phương thức xét tuyển",
+    "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+    "query_type": "GenAI Paraphrase (Lexical Gap)"
+  },
+  {
+    "query_id": 33,
+    "query_text": "Trên 22.5 điểm thì điểm cộng vùng miền KV1 KV2 bị trừ giảm dần theo công thức nào?",
+    "ground_truth_doc_id": 17,
+    "expected_category": "Phương thức xét tuyển",
+    "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+    "query_type": "Paraphrased / Tự nhiên"
+  },
+  {
+    "query_id": 34,
+    "query_text": "Cách tính điểm cộng ưu tiên khu vực KV1, KV2-NT khi tổng điểm 3 môn thi trên 22.5 điểm?",
+    "ground_truth_doc_id": 17,
+    "expected_category": "Phương thức xét tuyển",
+    "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+    "query_type": "GenAI Paraphrase (Tự nhiên)"
+  },
+  {
+    "query_id": 35,
+    "query_text": "Link web nộp hồ sơ học bạ online và chỗ up ảnh chụp học bạ của trường là trang nào?",
+    "ground_truth_doc_id": 18,
+    "expected_category": "Phương thức xét tuyển",
+    "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+    "query_type": "Truy vấn thực tế"
+  },
+  {
+    "query_id": 36,
+    "query_text": "Quy trình điền thông tin và nộp ảnh chụp học bạ trên cổng xettuyen.ntu.edu.vn thực hiện ra sao?",
+    "ground_truth_doc_id": 18,
+    "expected_category": "Phương thức xét tuyển",
+    "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+    "query_type": "GenAI Paraphrase (Tự nhiên)"
+  },
+  {
+    "query_id": 37,
+    "query_text": "Học CNTT ở trường sau này được phân vào những hướng chuyên sâu nào như phần mềm hay mạng?",
+    "ground_truth_doc_id": 19,
+    "expected_category": "Ngành đào tạo & Điểm chuẩn",
+    "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+    "query_type": "Từ đồng nghĩa (Lexical Gap)"
+  },
+  {
+    "query_id": 38,
+    "query_text": "Mã ngành 7480201 của trường gồm những chuyên ngành đào tạo nào trong khoa Công nghệ thông tin?",
+    "ground_truth_doc_id": 19,
+    "expected_category": "Ngành đào tạo & Điểm chuẩn",
+    "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+    "query_type": "GenAI Paraphrase (Lexical Gap)"
+  },
+  {
+    "query_id": 39,
+    "query_text": "Muốn thi vào ngành công nghệ thông tin thì đăng ký khối thi nào được ạ?",
+    "ground_truth_doc_id": 20,
+    "expected_category": "Ngành đào tạo & Điểm chuẩn",
+    "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+    "query_type": "Từ đồng nghĩa (Lexical Gap)"
+  },
+  {
+    "query_id": 40,
+    "query_text": "Tổ hợp D07 và A01 xét vào ngành Công nghệ thông tin gồm những môn thi nào?",
+    "ground_truth_doc_id": 20,
+    "expected_category": "Ngành đào tạo & Điểm chuẩn",
+    "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+    "query_type": "GenAI Paraphrase (Tự nhiên)"
+  },
+  {
+    "query_id": 41,
+    "query_text": "Mấy năm trước thi tốt nghiệp THPT khoảng bao nhiêu điểm mới đậu ngành CNTT?",
+    "ground_truth_doc_id": 21,
+    "expected_category": "Ngành đào tạo & Điểm chuẩn",
+    "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+    "query_type": "Paraphrased / Tự nhiên"
+  },
+  {
+    "query_id": 42,
+    "query_text": "Muốn đậu ngành CNTT bằng điểm đánh giá năng lực hoặc điểm thi THPT thì cần khoảng bao nhiêu điểm?",
+    "ground_truth_doc_id": 21,
+    "expected_category": "Ngành đào tạo & Điểm chuẩn",
+    "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+    "query_type": "GenAI Paraphrase (Lexical Gap)"
+  },
+  {
+    "query_id": 43,
+    "query_text": "Theo hướng công nghệ phần mềm thì sinh viên được học những ngôn ngữ lập trình và hệ quản trị CSDL nào?",
+    "ground_truth_doc_id": 22,
+    "expected_category": "Ngành đào tạo & Điểm chuẩn",
+    "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+    "query_type": "Truy vấn thực tế"
+  },
+  {
+    "query_id": 44,
+    "query_text": "Sinh viên học chuyên ngành Kỹ thuật phần mềm có được học ASP.NET Core, Java, C++ và kiểm thử QA không?",
+    "ground_truth_doc_id": 22,
+    "expected_category": "Ngành đào tạo & Điểm chuẩn",
+    "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+    "query_type": "GenAI Paraphrase (Tự nhiên)"
+  },
+  {
+    "query_id": 45,
+    "query_text": "Trường mình có dạy ngành kỹ thuật ô tô, cơ khí chế tạo máy hay tự động hóa không?",
+    "ground_truth_doc_id": 23,
+    "expected_category": "Ngành đào tạo & Điểm chuẩn",
+    "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+    "query_type": "Truy vấn thực tế"
+  },
+  {
+    "query_id": 46,
+    "query_text": "Ở trường có đào tạo các ngành kỹ thuật điện, tàu thủy, công nghệ thực phẩm và công nghệ sinh học không?",
+    "ground_truth_doc_id": 23,
+    "expected_category": "Ngành đào tạo & Điểm chuẩn",
+    "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+    "query_type": "GenAI Paraphrase (Tự nhiên)"
+  },
+  {
+    "query_id": 47,
+    "query_text": "Các ngành bên khối kinh tế như marketing, kế toán, quản trị khách sạn trường có đào tạo không?",
+    "ground_truth_doc_id": 24,
+    "expected_category": "Ngành đào tạo & Điểm chuẩn",
+    "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+    "query_type": "Truy vấn thực tế"
+  },
+  {
+    "query_id": 48,
+    "query_text": "Nhóm ngành Tài chính ngân hàng, Kinh doanh thương mại và Quản trị du lịch lữ hành có ở trường không?",
+    "ground_truth_doc_id": 24,
+    "expected_category": "Ngành đào tạo & Điểm chuẩn",
+    "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+    "query_type": "GenAI Paraphrase (Lexical Gap)"
+  },
+  {
+    "query_id": 49,
+    "query_text": "Những ngành truyền thống về nuôi trồng chế biến thủy sản và tàu biển của trường gồm ngành nào?",
+    "ground_truth_doc_id": 25,
+    "expected_category": "Ngành đào tạo & Điểm chuẩn",
+    "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+    "query_type": "Paraphrased / Tự nhiên"
+  },
+  {
+    "query_id": 50,
+    "query_text": "Trường có những ngành nào thuộc mảng khoa học hàng hải, bệnh học thủy sản và quản lý thủy sản?",
+    "ground_truth_doc_id": 25,
+    "expected_category": "Ngành đào tạo & Điểm chuẩn",
+    "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+    "query_type": "GenAI Paraphrase (Tự nhiên)"
+  },
+  {
+    "query_id": 51,
+    "query_text": "Mỗi khóa khoa CNTT lấy khoảng bao nhiêu chỉ tiêu và chia thành mấy lớp?",
+    "ground_truth_doc_id": 26,
+    "expected_category": "Ngành đào tạo & Điểm chuẩn",
+    "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+    "query_type": "Truy vấn thực tế"
+  },
+  {
+    "query_id": 52,
+    "query_text": "Hàng năm khoa CNTT tuyển sinh bao nhiêu sinh viên và chia lớp học thực hành như thế nào?",
+    "ground_truth_doc_id": 26,
+    "expected_category": "Ngành đào tạo & Điểm chuẩn",
+    "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+    "query_type": "GenAI Paraphrase (Lexical Gap)"
+  },
+  {
+    "query_id": 53,
+    "query_text": "Khoa ngoại ngữ có chuyên ngành tiếng Anh thương mại hay tiếng Anh du lịch không?",
+    "ground_truth_doc_id": 27,
+    "expected_category": "Ngành đào tạo & Điểm chuẩn",
+    "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+    "query_type": "Truy vấn thực tế"
+  },
+  {
+    "query_id": 54,
+    "query_text": "Ngoài tiếng Anh ra thì ở trường sinh viên có được học thêm tiếng Nhật, tiếng Hàn hay tiếng Trung không?",
+    "ground_truth_doc_id": 27,
+    "expected_category": "Ngành đào tạo & Điểm chuẩn",
+    "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+    "query_type": "GenAI Paraphrase (Tự nhiên)"
+  },
+  {
+    "query_id": 55,
+    "query_text": "Xét khối A00 với khối D01 vào ngành CNTT thì điểm đậu có bằng nhau không hay khối A lấy cao hơn?",
+    "ground_truth_doc_id": 28,
+    "expected_category": "Ngành đào tạo & Điểm chuẩn",
+    "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+    "query_type": "Từ đồng nghĩa (Lexical Gap)"
+  },
+  {
+    "query_id": 56,
+    "query_text": "Giữa các tổ hợp xét tuyển A00, A01, D01, D07 vào ngành CNTT có lấy mức điểm chuẩn khác nhau không?",
+    "ground_truth_doc_id": 28,
+    "expected_category": "Ngành đào tạo & Điểm chuẩn",
+    "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+    "query_type": "GenAI Paraphrase (Tự nhiên)"
+  },
+  {
+    "query_id": 57,
+    "query_text": "Trung bình 1 kỳ sinh viên công nghệ thông tin đóng khoảng mấy triệu tiền học phí?",
+    "ground_truth_doc_id": 29,
+    "expected_category": "Học phí & Lệ phí",
+    "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+    "query_type": "Paraphrased / Tự nhiên"
+  },
+  {
+    "query_id": 58,
+    "query_text": "Đơn giá 1 tín chỉ của ngành Công nghệ thông tin hệ đại trà hiện nay khoảng bao nhiêu tiền?",
+    "ground_truth_doc_id": 29,
+    "expected_category": "Học phí & Lệ phí",
+    "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+    "query_type": "GenAI Paraphrase (Lexical Gap)"
+  },
+  {
+    "query_id": 59,
+    "query_text": "Tại sao tiền 1 tín chỉ bên ngành kỹ thuật CNTT lại đắt hơn bên ngành kế toán kinh tế?",
+    "ground_truth_doc_id": 30,
+    "expected_category": "Học phí & Lệ phí",
+    "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+    "query_type": "Từ đồng nghĩa (Lexical Gap)"
+  },
+  {
+    "query_id": 60,
+    "query_text": "Chênh lệch mức thu học phí tín chỉ giữa khối ngành kỹ thuật công nghệ và khối kinh tế xã hội là bao nhiêu?",
+    "ground_truth_doc_id": 30,
+    "expected_category": "Học phí & Lệ phí",
+    "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+    "query_type": "GenAI Paraphrase (Tự nhiên)"
+  },
+  {
+    "query_id": 61,
+    "query_text": "Nhà trường thu tiền học phí qua quét QR ngân hàng nào hay nộp tiền mặt tại phòng tài chính?",
+    "ground_truth_doc_id": 31,
+    "expected_category": "Học phí & Lệ phí",
+    "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+    "query_type": "Truy vấn thực tế"
+  },
+  {
+    "query_id": 62,
+    "query_text": "Có thể đóng tiền học phí học kỳ bằng cách chuyển khoản qua Vietcombank, BIDV, Agribank được không?",
+    "ground_truth_doc_id": 31,
+    "expected_category": "Học phí & Lệ phí",
+    "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+    "query_type": "GenAI Paraphrase (Tự nhiên)"
+  },
+  {
+    "query_id": 63,
+    "query_text": "Tiền phí đăng ký mỗi nguyện vọng trên cổng Bộ GD&ĐT là bao nhiêu và thanh toán sao ạ?",
+    "ground_truth_doc_id": 32,
+    "expected_category": "Học phí & Lệ phí",
+    "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+    "query_type": "Paraphrased / Tự nhiên"
+  },
+  {
+    "query_id": 64,
+    "query_text": "Mỗi nguyện vọng đăng ký xét tuyển đại học tốn bao nhiêu tiền lệ phí và nộp qua ví điện tử nào?",
+    "ground_truth_doc_id": 32,
+    "expected_category": "Học phí & Lệ phí",
+    "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+    "query_type": "GenAI Paraphrase (Lexical Gap)"
+  },
+  {
+    "query_id": 65,
+    "query_text": "Ngày đầu tiên đến trường nhập học cần chuẩn bị đóng những khoản tiền bảo hiểm khám sức khỏe gì?",
+    "ground_truth_doc_id": 33,
+    "expected_category": "Học phí & Lệ phí",
+    "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+    "query_type": "Truy vấn thực tế"
+  },
+  {
+    "query_id": 66,
+    "query_text": "Tân sinh viên lúc mới nhập học phải đóng tiền làm thẻ sinh viên và tiền bảo hiểm y tế bắt buộc phải không?",
+    "ground_truth_doc_id": 33,
+    "expected_category": "Học phí & Lệ phí",
+    "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+    "query_type": "GenAI Paraphrase (Tự nhiên)"
+  },
+  {
+    "query_id": 67,
+    "query_text": "Nếu rớt môn bị điểm F phải đăng ký học lại thì tiền học phí môn đó tính thế nào?",
+    "ground_truth_doc_id": 34,
+    "expected_category": "Học phí & Lệ phí",
+    "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+    "query_type": "Từ đồng nghĩa (Lexical Gap)"
+  },
+  {
+    "query_id": 68,
+    "query_text": "Đăng ký học cải thiện điểm từ điểm D lên điểm cao hơn thì học phí môn đó tính theo đơn giá nào?",
+    "ground_truth_doc_id": 34,
+    "expected_category": "Học phí & Lệ phí",
+    "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+    "query_type": "GenAI Paraphrase (Lexical Gap)"
+  },
+  {
+    "query_id": 69,
+    "query_text": "Gia đình em kẹt tiền chưa đóng kịp học phí đúng hạn thì xin làm đơn lùi hạn nộp ở phòng nào?",
+    "ground_truth_doc_id": 35,
+    "expected_category": "Học phí & Lệ phí",
+    "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+    "query_type": "Từ đồng nghĩa (Lexical Gap)"
+  },
+  {
+    "query_id": 70,
+    "query_text": "Làm sao để không bị khóa tài khoản đăng ký môn học khi sinh viên chưa có đủ tiền đóng học phí đúng hạn?",
+    "ground_truth_doc_id": 35,
+    "expected_category": "Học phí & Lệ phí",
+    "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+    "query_type": "GenAI Paraphrase (Lexical Gap)"
+  },
+  {
+    "query_id": 71,
+    "query_text": "Em muốn xin giấy xác nhận đang học tại trường để về quê vay vốn ngân hàng chính sách được không?",
+    "ground_truth_doc_id": 36,
+    "expected_category": "Học phí & Lệ phí",
+    "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+    "query_type": "Truy vấn thực tế"
+  },
+  {
+    "query_id": 72,
+    "query_text": "Thủ tục xin giấy xác nhận sinh viên đầu học kỳ để làm hồ sơ vay vốn Ngân hàng Chính sách xã hội ở đâu?",
+    "ground_truth_doc_id": 36,
+    "expected_category": "Học phí & Lệ phí",
+    "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+    "query_type": "GenAI Paraphrase (Tự nhiên)"
+  },
+  {
+    "query_id": 73,
+    "query_text": "Sinh viên CNTT trước khi xét ra trường phải nộp chứng chỉ TOEIC mấy trăm điểm?",
+    "ground_truth_doc_id": 37,
+    "expected_category": "Chuẩn đầu ra & Đào tạo",
+    "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+    "query_type": "Truy vấn thực tế"
+  },
+  {
+    "query_id": 74,
+    "query_text": "Chuẩn đầu ra ngoại ngữ bậc 3/6 khung Việt Nam hoặc IELTS tối thiểu mấy chấm thì đủ điều kiện tốt nghiệp?",
+    "ground_truth_doc_id": 37,
+    "expected_category": "Chuẩn đầu ra & Đào tạo",
+    "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+    "query_type": "GenAI Paraphrase (Lexical Gap)"
+  },
+  {
+    "query_id": 75,
+    "query_text": "Chương trình cử nhân học khoảng bao nhiêu tín chỉ và có được đăng ký học vượt ra trường sớm 3 năm không?",
+    "ground_truth_doc_id": 38,
+    "expected_category": "Chuẩn đầu ra & Đào tạo",
+    "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+    "query_type": "Paraphrased / Tự nhiên"
+  },
+  {
+    "query_id": 76,
+    "query_text": "Tổng số tín chỉ toàn khóa của hệ đại học chính quy là bao nhiêu và học mấy học kỳ thì xong?",
+    "ground_truth_doc_id": 38,
+    "expected_category": "Chuẩn đầu ra & Đào tạo",
+    "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+    "query_type": "GenAI Paraphrase (Tự nhiên)"
+  },
+  {
+    "query_id": 77,
+    "query_text": "Học hết năm nhất điểm GPA bao nhiêu thì được đăng ký học thêm bằng đại học thứ 2?",
+    "ground_truth_doc_id": 39,
+    "expected_category": "Chuẩn đầu ra & Đào tạo",
+    "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+    "query_type": "Từ đồng nghĩa (Lexical Gap)"
+  },
+  {
+    "query_id": 78,
+    "query_text": "Điều kiện điểm tích lũy GPA sau năm thứ nhất để được đăng ký học cùng lúc 2 ngành tại trường là gì?",
+    "ground_truth_doc_id": 39,
+    "expected_category": "Chuẩn đầu ra & Đào tạo",
+    "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+    "query_type": "GenAI Paraphrase (Tự nhiên)"
+  },
+  {
+    "query_id": 79,
+    "query_text": "Điểm tổng kết môn được 7.5 hay 8.5 thì đổi sang điểm chữ A B C và hệ 4 là bao nhiêu?",
+    "ground_truth_doc_id": 40,
+    "expected_category": "Chuẩn đầu ra & Đào tạo",
+    "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+    "query_type": "Truy vấn thực tế"
+  },
+  {
+    "query_id": 80,
+    "query_text": "Mức điểm từ 4.0 đến 5.4 và dưới 4.0 được quy đổi sang điểm chữ D, D+, F và hệ 4 như thế nào?",
+    "ground_truth_doc_id": 40,
+    "expected_category": "Chuẩn đầu ra & Đào tạo",
+    "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+    "query_type": "GenAI Paraphrase (Lexical Gap)"
+  },
+  {
+    "query_id": 81,
+    "query_text": "Học kỳ hè tháng 6 tháng 7 có bắt buộc mọi sinh viên phải đăng ký học không ạ?",
+    "ground_truth_doc_id": 41,
+    "expected_category": "Chuẩn đầu ra & Đào tạo",
+    "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+    "query_type": "Truy vấn thực tế"
+  },
+  {
+    "query_id": 82,
+    "query_text": "Thời gian bắt đầu học kỳ 1, học kỳ 2 và học kỳ phụ trong năm học của trường vào những tháng nào?",
+    "ground_truth_doc_id": 41,
+    "expected_category": "Chuẩn đầu ra & Đào tạo",
+    "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+    "query_type": "GenAI Paraphrase (Tự nhiên)"
+  },
+  {
+    "query_id": 83,
+    "query_text": "Mỗi học kỳ chính nhà trường bắt buộc đăng ký ít nhất mấy tín chỉ và nhiều nhất mấy tín chỉ?",
+    "ground_truth_doc_id": 42,
+    "expected_category": "Chuẩn đầu ra & Đào tạo",
+    "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+    "query_type": "Từ đồng nghĩa (Lexical Gap)"
+  },
+  {
+    "query_id": 84,
+    "query_text": "Sinh viên học lực bình thường mỗi kỳ được đăng ký tối đa bao nhiêu tín chỉ và tối thiểu mấy tín chỉ?",
+    "ground_truth_doc_id": 42,
+    "expected_category": "Chuẩn đầu ra & Đào tạo",
+    "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+    "query_type": "GenAI Paraphrase (Tự nhiên)"
+  },
+  {
+    "query_id": 85,
+    "query_text": "Môn đồ án cơ sở ngành CNTT làm vào năm mấy và khác gì với đồ án tốt nghiệp cuối khóa?",
+    "ground_truth_doc_id": 43,
+    "expected_category": "Chuẩn đầu ra & Đào tạo",
+    "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+    "query_type": "Truy vấn thực tế"
+  },
+  {
+    "query_id": 86,
+    "query_text": "Học phần Đồ án tốt nghiệp của ngành Công nghệ thông tin được làm vào học kỳ nào của năm thứ 4?",
+    "ground_truth_doc_id": 43,
+    "expected_category": "Chuẩn đầu ra & Đào tạo",
+    "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+    "query_type": "GenAI Paraphrase (Lexical Gap)"
+  },
+  {
+    "query_id": 87,
+    "query_text": "Để được cầm bằng tốt nghiệp ra trường cần hoàn thành đủ những điều kiện chứng chỉ nào?",
+    "ground_truth_doc_id": 44,
+    "expected_category": "Chuẩn đầu ra & Đào tạo",
+    "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+    "query_type": "Paraphrased / Tự nhiên"
+  },
+  {
+    "query_id": 88,
+    "query_text": "Điểm trung bình tích lũy GPA tối thiểu đạt mấy chấm và cần những chứng chỉ gì để được xét công nhận tốt nghiệp?",
+    "ground_truth_doc_id": 44,
+    "expected_category": "Chuẩn đầu ra & Đào tạo",
+    "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+    "query_type": "GenAI Paraphrase (Tự nhiên)"
+  },
+  {
+    "query_id": 89,
+    "query_text": "Đậu thủ khoa đầu vào của trường có được miễn 100% tiền học phí năm nhất không?",
+    "ground_truth_doc_id": 45,
+    "expected_category": "Học bổng & Chính sách",
+    "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+    "query_type": "Truy vấn thực tế"
+  },
+  {
+    "query_id": 90,
+    "query_text": "Ngoài học bổng khuyến khích học tập từng kỳ, trường có học bổng doanh nghiệp và học bổng thủ khoa ngành không?",
+    "ground_truth_doc_id": 45,
+    "expected_category": "Học bổng & Chính sách",
+    "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+    "query_type": "GenAI Paraphrase (Lexical Gap)"
+  },
+  {
+    "query_id": 91,
+    "query_text": "Muốn săn học bổng khuyến khích học tập mỗi kỳ thì cần đăng ký mấy tín chỉ và không bị điểm dưới mức nào?",
+    "ground_truth_doc_id": 46,
+    "expected_category": "Học bổng & Chính sách",
+    "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+    "query_type": "Truy vấn thực tế"
+  },
+  {
+    "query_id": 92,
+    "query_text": "Bị 1 môn điểm D hoặc điểm F trong học kỳ thì có còn đủ điều kiện xét học bổng khuyến khích học tập không?",
+    "ground_truth_doc_id": 46,
+    "expected_category": "Học bổng & Chính sách",
+    "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+    "query_type": "GenAI Paraphrase (Lexical Gap)"
+  },
+  {
+    "query_id": 93,
+    "query_text": "Con thương binh hoặc thuộc diện hộ nghèo cận nghèo thì được giảm bao nhiêu phần trăm học phí?",
+    "ground_truth_doc_id": 47,
+    "expected_category": "Học bổng & Chính sách",
+    "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+    "query_type": "Paraphrased / Tự nhiên"
+  },
+  {
+    "query_id": 94,
+    "query_text": "Đối tượng sinh viên khuyết tật, dân tộc thiểu số rất ít người được miễn giảm học phí theo Nghị định 81 thế nào?",
+    "ground_truth_doc_id": 47,
+    "expected_category": "Học bổng & Chính sách",
+    "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+    "query_type": "GenAI Paraphrase (Tự nhiên)"
+  },
+  {
+    "query_id": 95,
+    "query_text": "Học các ngành truyền thống như khai thác thủy sản hay tàu thủy có được trường hỗ trợ học bổng riêng không?",
+    "ground_truth_doc_id": 48,
+    "expected_category": "Học bổng & Chính sách",
+    "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+    "query_type": "Paraphrased / Tự nhiên"
+  },
+  {
+    "query_id": 96,
+    "query_text": "Thí sinh trúng tuyển ngành Quản lý thủy sản hay Kỹ thuật tàu thủy có được giảm 50% đến 100% học phí kỳ đầu không?",
+    "ground_truth_doc_id": 48,
+    "expected_category": "Học bổng & Chính sách",
+    "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+    "query_type": "GenAI Paraphrase (Lexical Gap)"
+  },
+  {
+    "query_id": 97,
+    "query_text": "Sinh viên giỏi tiếng Anh có cơ hội xin học bổng đi trao đổi 1 kỳ bên châu Âu hay Nhật Hàn không?",
+    "ground_truth_doc_id": 49,
+    "expected_category": "Học bổng & Chính sách",
+    "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+    "query_type": "Từ đồng nghĩa (Lexical Gap)"
+  },
+  {
+    "query_id": 98,
+    "query_text": "Các chương trình học bổng Erasmus+ châu Âu hay NORHED Na Uy của trường dành cho đối tượng sinh viên nào?",
+    "ground_truth_doc_id": 49,
+    "expected_category": "Học bổng & Chính sách",
+    "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+    "query_type": "GenAI Paraphrase (Tự nhiên)"
+  },
+  {
+    "query_id": 99,
+    "query_text": "Điểm rèn luyện chấm theo thang 100 dựa vào đâu và có bắt buộc khi xét học bổng không?",
+    "ground_truth_doc_id": 50,
+    "expected_category": "Học bổng & Chính sách",
+    "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+    "query_type": "Truy vấn thực tế"
+  },
+  {
+    "query_id": 100,
+    "query_text": "Kết quả chấm điểm rèn luyện hàng kỳ ảnh hưởng thế nào đến việc xét ở ký túc xá và phân loại bằng tốt nghiệp?",
+    "ground_truth_doc_id": 50,
+    "expected_category": "Học bổng & Chính sách",
+    "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+    "query_type": "GenAI Paraphrase (Lexical Gap)"
+  },
+  {
+    "query_id": 101,
+    "query_text": "Nhà nội trú từ K1 tới K8 trong trường thu tiền phòng mỗi tháng bao nhiêu một người?",
+    "ground_truth_doc_id": 51,
+    "expected_category": "Ký túc xá & Đời sống",
+    "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+    "query_type": "Từ đồng nghĩa (Lexical Gap)"
+  },
+  {
+    "query_id": 102,
+    "query_text": "Sức chứa khu ký túc xá của trường là bao nhiêu chỗ và đối tượng nào được ưu tiên bố trí phòng ở?",
+    "ground_truth_doc_id": 51,
+    "expected_category": "Ký túc xá & Đời sống",
+    "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+    "query_type": "GenAI Paraphrase (Tự nhiên)"
+  },
+  {
+    "query_id": 103,
+    "query_text": "Dàn máy tính ở phòng Lab thực hành của khoa CNTT có cài sẵn SQL Server, Visual Studio để học code không?",
+    "ground_truth_doc_id": 52,
+    "expected_category": "Ký túc xá & Đời sống",
+    "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+    "query_type": "Truy vấn thực tế"
+  },
+  {
+    "query_id": 104,
+    "query_text": "Khoa CNTT có phòng Lab chuyên đề mạng máy tính Cisco, lập trình .NET và thư viện số cho sinh viên không?",
+    "ground_truth_doc_id": 52,
+    "expected_category": "Ký túc xá & Đời sống",
+    "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+    "query_type": "GenAI Paraphrase (Lexical Gap)"
+  },
+  {
+    "query_id": 105,
+    "query_text": "Trong trường có phòng đọc sách máy lạnh với sân bóng đá cỏ nhân tạo cho sinh viên tập thể thao không?",
+    "ground_truth_doc_id": 53,
+    "expected_category": "Ký túc xá & Đời sống",
+    "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+    "query_type": "Từ đồng nghĩa (Lexical Gap)"
+  },
+  {
+    "query_id": 106,
+    "query_text": "Sinh viên có được sử dụng miễn phí sân bóng rổ, bóng chuyền và nhà thi đấu đa năng của trường không?",
+    "ground_truth_doc_id": 53,
+    "expected_category": "Ký túc xá & Đời sống",
+    "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+    "query_type": "GenAI Paraphrase (Tự nhiên)"
+  },
+  {
+    "query_id": 107,
+    "query_text": "Tân sinh viên ở tỉnh xa muốn xin vào ở ký túc xá thì đăng ký online lúc nhập học hay nộp đơn ở đâu?",
+    "ground_truth_doc_id": 54,
+    "expected_category": "Ký túc xá & Đời sống",
+    "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+    "query_type": "Paraphrased / Tự nhiên"
+  },
+  {
+    "query_id": 108,
+    "query_text": "Thủ tục nộp đơn xin vào ở nội trú tại Ban Quản lý Ký túc xá khi tân sinh viên đến nhập học như thế nào?",
+    "ground_truth_doc_id": 54,
+    "expected_category": "Ký túc xá & Đời sống",
+    "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+    "query_type": "GenAI Paraphrase (Tự nhiên)"
+  },
+  {
+    "query_id": 109,
+    "query_text": "Đi làm thủ tục nhập học trực tiếp cần mang theo bản sao học bạ, giấy khai sinh và những giấy tờ gì nữa?",
+    "ground_truth_doc_id": 55,
+    "expected_category": "Hồ sơ & Nhập học",
+    "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+    "query_type": "Paraphrased / Tự nhiên"
+  },
+  {
+    "query_id": 110,
+    "query_text": "Trong bộ hồ sơ nhập học của tân sinh viên có cần nộp sổ đoàn viên, căn cước công dân và giấy báo trúng tuyển không?",
+    "ground_truth_doc_id": 55,
+    "expected_category": "Hồ sơ & Nhập học",
+    "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+    "query_type": "GenAI Paraphrase (Lexical Gap)"
+  },
+  {
+    "query_id": 111,
+    "query_text": "Đã có tên trong danh sách đậu mà quên bấm xác nhận nhập học trên web Bộ GD&ĐT đúng hạn thì có bị hủy kết quả không?",
+    "ground_truth_doc_id": 56,
+    "expected_category": "Hồ sơ & Nhập học",
+    "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+    "query_type": "Truy vấn thực tế"
+  },
+  {
+    "query_id": 112,
+    "query_text": "Trúng tuyển vào trường nhưng quá thời hạn không xác nhận nhập học trực tuyến trên cổng Bộ GD&ĐT thì bị xử lý sao?",
+    "ground_truth_doc_id": 56,
+    "expected_category": "Hồ sơ & Nhập học",
+    "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+    "query_type": "GenAI Paraphrase (Tự nhiên)"
+  },
+  {
+    "query_id": 113,
+    "query_text": "Bạn nam trúng tuyển đại học cần xin giấy di chuyển nghĩa vụ quân sự ở xã nộp cho trường để tạm hoãn phải không?",
+    "ground_truth_doc_id": 57,
+    "expected_category": "Hồ sơ & Nhập học",
+    "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+    "query_type": "Truy vấn thực tế"
+  },
+  {
+    "query_id": 114,
+    "query_text": "Giấy giới thiệu di chuyển nghĩa vụ quân sự của nam sinh viên nhập học do cơ quan nào ở địa phương cấp?",
+    "ground_truth_doc_id": 57,
+    "expected_category": "Hồ sơ & Nhập học",
+    "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+    "query_type": "GenAI Paraphrase (Lexical Gap)"
+  },
+  {
+    "query_id": 115,
+    "query_text": "Học CNTT đến năm 3 năm 4 có được khoa giới thiệu qua FPT Software Nha Trang thực tập không?",
+    "ground_truth_doc_id": 58,
+    "expected_category": "Cơ hội việc làm & Thực tập",
+    "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+    "query_type": "Truy vấn thực tế"
+  },
+  {
+    "query_id": 116,
+    "query_text": "Những công ty công nghệ nào như TMA Solutions, NashTech, Viettel nhận sinh viên khoa CNTT thực tập?",
+    "ground_truth_doc_id": 58,
+    "expected_category": "Cơ hội việc làm & Thực tập",
+    "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+    "query_type": "GenAI Paraphrase (Tự nhiên)"
+  },
+  {
+    "query_id": 117,
+    "query_text": "Sinh viên tốt nghiệp đại học Nha Trang ra trường tỷ lệ kiếm được việc làm trong 1 năm đầu khoảng bao nhiêu phần trăm?",
+    "ground_truth_doc_id": 59,
+    "expected_category": "Cơ hội việc làm & Thực tập",
+    "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+    "query_type": "Paraphrased / Tự nhiên"
+  },
+  {
+    "query_id": 118,
+    "query_text": "Khảo sát sinh viên ngành kỹ thuật và CNTT sau khi tốt nghiệp 12 tháng có tỷ lệ việc làm đạt bao nhiêu?",
+    "ground_truth_doc_id": 59,
+    "expected_category": "Cơ hội việc làm & Thực tập",
+    "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+    "query_type": "GenAI Paraphrase (Lexical Gap)"
+  },
+  {
+    "query_id": 119,
+    "query_text": "Hàng năm trường có mở ngày hội tuyển dụng Job Fair cho các công ty vào phỏng vấn sinh viên năm cuối không?",
+    "ground_truth_doc_id": 60,
+    "expected_category": "Cơ hội việc làm & Thực tập",
+    "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+    "query_type": "Từ đồng nghĩa (Lexical Gap)"
+  },
+  {
+    "query_id": 120,
+    "query_text": "Sự kiện NTU Job Fair của trường thường diễn ra vào tháng mấy hàng năm và có bao nhiêu doanh nghiệp tham gia?",
+    "ground_truth_doc_id": 60,
+    "expected_category": "Cơ hội việc làm & Thực tập",
+    "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+    "query_type": "GenAI Paraphrase (Tự nhiên)"
+  }
+]
