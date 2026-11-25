@@ -13,11 +13,13 @@ DACSN_DeTai_InvertedIndex_BM25/
 ├── preprocessor.py             # Module 1: Tiền xử lý văn bản tiếng Việt (Normalization, Word Segmentation, Stopwords)
 ├── inverted_index.py           # Module 2: Cấu trúc dữ liệu Chỉ mục ngược (InvertedIndex tự cài bằng bảng băm)
 ├── ranker.py                   # Module 3: Bộ xếp hạng TFIDFRanker và BM25Ranker (tự cài công thức toán học + Min-Heap)
-├── evaluator.py                # Module 4: Độ đo đánh giá chất lượng truy hồi Recall@k và MRR
+├── evaluator.py                # Module 4: Độ đo Recall@k, MRR, so sánh khác biệt xếp hạng & đo thời gian truy vấn (ms)
 ├── baseline_compare.py         # Module 5: Đối chứng kết quả với thư viện chuẩn scikit-learn (TfidfVectorizer)
-├── test_hand_calc.py           # Unit Test tái hiện chính xác 100% ví dụ tính tay Chương 3 & chạy thử nghiệm 60 Docs
-├── faq_data_Tuan3.json         # Kho dữ liệu 60 tài liệu FAQ Tuyển sinh ĐH Nha Trang (kèm nguồn chính thức)
-├── test_queries_Tuan3.json     # Tập 120 câu hỏi kiểm thử (mỗi tài liệu 2 truy vấn từ Bạn học & GenAI)
+├── test_hand_calc.py           # Unit Test tái hiện chính xác 100% ví dụ tính tay Chương 3 (Tuần 3)
+├── experiments_tuan4.py        # Thực nghiệm Tuần 4: Khảo sát index_field, lưới (k1, b), khác biệt xếp hạng & tốc độ (ms)
+├── faq_data_Tuan3.json         # Bộ dữ liệu Tuần 3 (60 tài liệu gốc & 120 truy vấn)
+├── test_queries_Tuan3.json     # Tập 120 câu hỏi kiểm thử (60 từ Bạn học + 60 từ GenAI)
+├── faq_data_Tuan4.json         # Bộ dữ liệu Tuần 4 (60 gốc + 30 tài liệu gây nhiễu cùng chủ đề = 90 Docs, có URL cụ thể)
 └── README.md                   # Tài liệu hướng dẫn cài đặt và chạy thực nghiệm
 ```
 
@@ -35,16 +37,20 @@ _(Lưu ý: Toàn bộ lõi thuật toán `InvertedIndex`, `TFIDFRanker`, `BM25Ra
 
 ---
 
-## 3. Cách chạy Unit Test tái hiện Ví dụ tính tay Chương 3 & Thực nghiệm Tuần 3
+## 3. Hướng dẫn chạy kiểm thử & thực nghiệm
 
-Chạy lệnh sau trên Terminal để kiểm tra toàn bộ 5 bài Unit Test tự động và xem bảng kết quả trên 60 tài liệu FAQ (120 câu truy vấn):
-
+### 3.1. Chạy Unit Test tái hiện Ví dụ tính tay Chương 3 (Tuần 3)
 ```bash
 python test_hand_calc.py
 ```
 
-Để chạy đối chứng độ khớp điểm số tuyệt đối giữa `TFIDFRanker` tự cài và `TfidfVectorizer` của `scikit-learn`:
-
+### 3.2. Chạy đối chứng `TFIDFRanker` tự cài vs. `scikit-learn` (`TfidfVectorizer`)
 ```bash
 python baseline_compare.py
+```
+
+### 3.3. Chạy thực nghiệm Tuần 4 (90 tài liệu & 120 truy vấn)
+Khảo sát `index_field` (`question` / `answer` / `both`), lưới tham số BM25 ($k_1 \in \{0.9, 1.2, 1.5, 2.0\}$, $b \in \{0.25, 0.5, 0.75, 1.0\}$), đếm số truy vấn xếp hạng khác nhau và đo thời gian truy vấn trung bình (ms):
+```bash
+python experiments_tuan4.py
 ```

@@ -1,0 +1,1874 @@
+{
+  "dataset_name": "NTU_Admissions_FAQ_2026_Tuan4",
+  "description": "Bộ dữ liệu Hỏi-Đáp Tuyển sinh Trường Đại học Nha Trang - Tuần 4 (60 tài liệu gốc + 30 tài liệu gây nhiễu cùng chủ đề = 90 tài liệu có URL đối chiếu cụ thể & 120 truy vấn kiểm thử)",
+  "author": "Phan Nguyễn Ngọc Thiện - 66133552",
+  "indexing_strategy": "both (question + ' ' + answer)",
+  "total_documents": 90,
+  "original_documents": 60,
+  "distractor_documents": 30,
+  "total_test_queries": 120,
+  "corpus": [
+    {
+      "doc_id": 1,
+      "category": "Thông tin chung",
+      "question": "Mã trường Đại học Nha Trang trong tuyển sinh đại học chính quy là gì?",
+      "answer": "Mã trường của Trường Đại học Nha Trang trong hệ thống tuyển sinh chung của Bộ Giáo dục và Đào tạo là TSN. Thí sinh sử dụng mã TSN khi đăng ký nguyện vọng xét tuyển đại học chính quy trên cổng thông tin của Bộ GD&ĐT.",
+      "keywords": "mã trường, TSN, đại học nha trang, đăng ký nguyện vọng",
+      "source_title": "Đề án Tuyển sinh Đại học chính quy 2026 - Trường ĐH Nha Trang",
+      "source_url": "https://tuyensinh.ntu.edu.vn/de-an-tuyen-sinh",
+      "doc_type": "Tài liệu gốc (Tuần 3)"
+    },
+    {
+      "doc_id": 2,
+      "category": "Thông tin chung",
+      "question": "Địa chỉ cơ sở chính của Trường Đại học Nha Trang nằm ở đâu?",
+      "answer": "Trụ sở chính của Trường Đại học Nha Trang tọa lạc tại số 02 đường Nguyễn Đình Chiểu, phường Vĩnh Thọ, thành phố Nha Trang, tỉnh Khánh Hòa (khu vực đồi La San nhìn ra vịnh Nha Trang).",
+      "keywords": "địa chỉ, cơ sở chính, 02 Nguyễn Đình Chiểu, Vĩnh Thọ, Nha Trang",
+      "source_title": "Giới thiệu Cơ sở vật chất và Trụ sở chính - Trường ĐH Nha Trang",
+      "source_url": "https://ntu.edu.vn/gioi-thieu/co-so-vat-chat",
+      "doc_type": "Tài liệu gốc (Tuần 3)"
+    },
+    {
+      "doc_id": 3,
+      "category": "Thông tin chung",
+      "question": "Trường Đại học Nha Trang là trường công lập hay tư thục và trực thuộc cơ quan nào?",
+      "answer": "Trường Đại học Nha Trang (Nha Trang University - NTU) là trường đại học công lập đa ngành, đa lĩnh vực, trực thuộc Bộ Giáo dục và Đào tạo, được thành lập từ năm 1959 (tiền thân là Khoa Thủy sản thuộc Học viện Nông Lâm).",
+      "keywords": "công lập, tư thục, Bộ Giáo dục và Đào tạo, năm 1959",
+      "source_title": "Lịch sử phát triển Trường Đại học Nha Trang (thành lập 1959)",
+      "source_url": "https://ntu.edu.vn/gioi-thieu/lich-su-phat-trien",
+      "doc_type": "Tài liệu gốc (Tuần 3)"
+    },
+    {
+      "doc_id": 4,
+      "category": "Thông tin chung",
+      "question": "Số điện thoại đường dây nóng (Hotline) và email tư vấn tuyển sinh của trường là gì?",
+      "answer": "Thí sinh và phụ huynh cần hỗ trợ tư vấn tuyển sinh có thể liên hệ Phòng Đào tạo Đại học qua số điện thoại Hotline 0258.3831148 hoặc 0258.2220913, email: tuyensinh@ntu.edu.vn hoặc fanpage Thông tin Tuyển sinh Đại học Nha Trang.",
+      "keywords": "số điện thoại, hotline, email, liên hệ, tư vấn tuyển sinh",
+      "source_title": "Thông tin liên hệ tư vấn tuyển sinh - Đề án Tuyển sinh NTU",
+      "source_url": "https://tuyensinh.ntu.edu.vn/de-an-tuyen-sinh/phuong-thuc-doi-tuong-pham-vi-ts",
+      "doc_type": "Tài liệu gốc (Tuần 3)"
+    },
+    {
+      "doc_id": 5,
+      "category": "Thông tin chung",
+      "question": "Quy mô đào tạo và tổng chỉ tiêu tuyển sinh hàng năm của Trường Đại học Nha Trang là bao nhiêu?",
+      "answer": "Hàng năm, Trường Đại học Nha Trang tuyển sinh khoảng 3.600 đến 4.000 chỉ tiêu đại học chính quy trên hơn 35 ngành và chương trình đào tạo thuộc các lĩnh vực công nghệ, kỹ thuật, kinh tế, thủy sản, du lịch và ngoại ngữ.",
+      "keywords": "quy mô, tổng chỉ tiêu, số lượng ngành, tuyển sinh hàng năm",
+      "source_title": "Phương thức, đối tượng và quy mô chỉ tiêu tuyển sinh ĐH chính quy NTU",
+      "source_url": "https://tuyensinh.ntu.edu.vn/de-an-tuyen-sinh/phuong-thuc-doi-tuong-pham-vi-ts",
+      "doc_type": "Tài liệu gốc (Tuần 3)"
+    },
+    {
+      "doc_id": 6,
+      "category": "Thông tin chung",
+      "question": "Trường Đại học Nha Trang có những chương trình đào tạo đặc thù nào ngoài hệ đại trà?",
+      "answer": "Bên cạnh chương trình đào tạo chuẩn (đại trà), Nhà trường còn triển khai Chương trình đào tạo định hướng ứng dụng (POHE), chương trình song ngữ Anh - Việt và chương trình chất lượng cao ở một số ngành mũi nhọn.",
+      "keywords": "chương trình đào tạo, đại trà, POHE, song ngữ, chất lượng cao",
+      "source_title": "Chương trình đào tạo Đại học hệ chính quy (Chuẩn & Đặc biệt) - NTU",
+      "source_url": "https://tuyensinh.ntu.edu.vn/%C4%91ai-hoc/chuong-trinh-%C4%91ao-tao-%C4%91ai-hoc-chinh-quy",
+      "doc_type": "Tài liệu gốc (Tuần 3)"
+    },
+    {
+      "doc_id": 7,
+      "category": "Thông tin chung",
+      "question": "Bằng tốt nghiệp của Trường Đại học Nha Trang có giá trị sử dụng trên toàn quốc không?",
+      "answer": "Văn bằng tốt nghiệp (Cử nhân, Kỹ sư, Thạc sĩ, Tiến sĩ) do Trường Đại học Nha Trang cấp thuộc hệ thống văn bằng quốc gia của Bộ Giáo dục và Đào tạo, có giá trị pháp lý trên toàn quốc và được công nhận khi du học quốc tế.",
+      "keywords": "bằng tốt nghiệp, cử nhân, kỹ sư, giá trị văn bằng",
+      "source_title": "Quyết định 1052/QĐ-ĐHNT (17/07/2025) Quy chế đào tạo trình độ Đại học",
+      "source_url": "https://pdtdaihoc.ntu.edu.vn/uploads/38//245-Quyet%20dinh%201052%20(17-7-2025)%20ban%20hanh%20quy%20che%20dao%20tao%20trinh%20do%20dai%20hoc%20cua%20Truong%20DHNT.pdf",
+      "doc_type": "Tài liệu gốc (Tuần 3)"
+    },
+    {
+      "doc_id": 8,
+      "category": "Thông tin chung",
+      "question": "Khoa Công nghệ Thông tin của Trường Đại học Nha Trang có văn phòng đặt tại tòa nhà nào?",
+      "answer": "Văn phòng Khoa Công nghệ Thông tin đặt tại khu nhà đa năng (nhà G / nhà N) trong khuôn viên cơ sở chính số 02 Nguyễn Đình Chiểu, quản lý trực tiếp các bộ môn Kỹ thuật phần mềm, Hệ thống thông tin và Mạng máy tính.",
+      "keywords": "khoa công nghệ thông tin, văn phòng khoa, bộ môn",
+      "source_title": "Chương trình đào tạo và Bộ môn - Khoa Công nghệ Thông tin NTU",
+      "source_url": "https://khoacntt.ntu.edu.vn/%C4%91ao-tao/ct%C4%91t-nganh-cong-nghe-thong-tin",
+      "doc_type": "Tài liệu gốc (Tuần 3)"
+    },
+    {
+      "doc_id": 9,
+      "category": "Phương thức xét tuyển",
+      "question": "Trường Đại học Nha Trang xét tuyển theo những phương thức nào trong năm 2026?",
+      "answer": "Nhà trường áp dụng 4 phương thức xét tuyển chính: (1) Xét tuyển thẳng và ưu tiên xét tuyển theo quy định của Bộ GD&ĐT; (2) Xét tuyển dựa vào kết quả học tập THPT (Học bạ); (3) Xét điểm thi Đánh giá năng lực của ĐHQG TP.HCM và ĐHQG Hà Nội; (4) Xét điểm thi tốt nghiệp THPT.",
+      "keywords": "phương thức xét tuyển, học bạ, đánh giá năng lực, tốt nghiệp THPT",
+      "source_title": "Thông tin Tuyển sinh Đại học 2026 - Các phương thức xét tuyển NTU",
+      "source_url": "https://tuyensinh.ntu.edu.vn/de-an-tuyen-sinh",
+      "doc_type": "Tài liệu gốc (Tuần 3)"
+    },
+    {
+      "doc_id": 10,
+      "category": "Phương thức xét tuyển",
+      "question": "Cách tính điểm xét tuyển học bạ THPT vào Trường Đại học Nha Trang như thế nào?",
+      "answer": "Khi xét tuyển bằng học bạ THPT, nhà trường xét điểm trung bình các môn trong tổ hợp xét tuyển của 3 học kỳ (học kỳ 1, học kỳ 2 lớp 11 và học kỳ 1 lớp 12) hoặc cả năm lớp 12 theo quy định cụ thể trong thông báo xét tuyển từng đợt.",
+      "keywords": "xét học bạ, điểm trung bình, tổ hợp xét tuyển, học kỳ",
+      "source_title": "Thông tin Tuyển sinh NTU - Quy định xét kết quả học tập THPT (Học bạ)",
+      "source_url": "https://tuyensinh.ntu.edu.vn/Uploads/2/THONG-TIN-TUYEN-SINH-2024-FINAL.pdf",
+      "doc_type": "Tài liệu gốc (Tuần 3)"
+    },
+    {
+      "doc_id": 11,
+      "category": "Phương thức xét tuyển",
+      "question": "Thí sinh tự do đã tốt nghiệp THPT từ các năm trước có được đăng ký xét học bạ vào trường không?",
+      "answer": "Thí sinh tự do đã tốt nghiệp THPT ở các năm trước hoàn toàn được phép đăng ký xét tuyển vào Trường Đại học Nha Trang bằng phương thức xét điểm học bạ THPT hoặc điểm thi Đánh giá năng lực, điểm thi tốt nghiệp THPT năm hiện tại.",
+      "keywords": "thí sinh tự do, tốt nghiệp năm trước, xét học bạ",
+      "source_title": "Quyết định 405/QĐ-ĐHNT Quy chế tuyển sinh đại học Trường ĐH Nha Trang",
+      "source_url": "https://tuyensinh.ntu.edu.vn/uploads/2/files/2023/QD%20405%20(03.4.2023)%20vv%20ban%20hanh%20Quy%20che%20tuyen%20sinh%20dai%20hoc%20cua%20Truong%20DH%20Nha%20Trang.pdf",
+      "doc_type": "Tài liệu gốc (Tuần 3)"
+    },
+    {
+      "doc_id": 12,
+      "category": "Phương thức xét tuyển",
+      "question": "Ngưỡng đảm bảo chất lượng đầu vào (điểm sàn) đối với phương thức xét điểm Đánh giá năng lực là bao nhiêu?",
+      "answer": "Đối với phương thức xét điểm thi Đánh giá năng lực (ĐGNL), thí sinh cần đạt mức điểm nhận hồ sơ tối thiểu từ 600/1200 điểm trở lên đối với kỳ thi của ĐHQG TP.HCM hoặc từ 75/150 điểm trở lên đối với kỳ thi của ĐHQG Hà Nội (mức cụ thể công bố theo từng năm).",
+      "keywords": "điểm sàn, đánh giá năng lực, ĐGNL, ĐHQG TPHCM, ĐHQG Hà Nội",
+      "source_title": "Điểm trúng tuyển các năm (Phương thức ĐGNL ĐHQG-HCM & ĐHQG-HN)",
+      "source_url": "https://tuyensinh.ntu.edu.vn/diem-trung-tuyen-cac-nam",
+      "doc_type": "Tài liệu gốc (Tuần 3)"
+    },
+    {
+      "doc_id": 13,
+      "category": "Phương thức xét tuyển",
+      "question": "Thí sinh có chứng chỉ tiếng Anh quốc tế IELTS, TOEIC có được quy đổi điểm xét tuyển không?",
+      "answer": "Thí sinh sở hữu chứng chỉ tiếng Anh quốc tế còn thời hạn (như IELTS từ 5.0 trở lên hoặc TOEIC theo quy định đề án) được phép quy đổi sang điểm 9.0 - 10.0 cho môn Tiếng Anh trong tổ hợp xét tuyển có môn Tiếng Anh.",
+      "keywords": "chứng chỉ tiếng anh, IELTS, TOEIC, quy đổi điểm, ưu tiên",
+      "source_title": "Quy chế tuyển sinh đại học và quy đổi điểm ngoại ngữ - NTU",
+      "source_url": "https://tuyensinh.ntu.edu.vn/de-an-tuyen-sinh",
+      "doc_type": "Tài liệu gốc (Tuần 3)"
+    },
+    {
+      "doc_id": 14,
+      "category": "Phương thức xét tuyển",
+      "question": "Đối tượng nào được xét tuyển thẳng vào Trường Đại học Nha Trang?",
+      "answer": "Thí sinh đạt giải Nhất, Nhì, Ba trong kỳ thi chọn học sinh giỏi quốc gia hoặc cuộc thi Khoa học kỹ thuật cấp quốc gia, quốc tế thuộc môn/lĩnh vực phù hợp với ngành đào tạo sẽ được xét tuyển thẳng theo quy chế của Bộ GD&ĐT.",
+      "keywords": "xét tuyển thẳng, học sinh giỏi quốc gia, khoa học kỹ thuật",
+      "source_title": "Phương thức xét tuyển thẳng và ưu tiên xét tuyển - Đề án Tuyển sinh NTU",
+      "source_url": "https://tuyensinh.ntu.edu.vn/de-an-tuyen-sinh",
+      "doc_type": "Tài liệu gốc (Tuần 3)"
+    },
+    {
+      "doc_id": 15,
+      "category": "Phương thức xét tuyển",
+      "question": "Trường Đại học Nha Trang có áp dụng tiêu chí phụ môn Tiếng Anh trong xét tuyển không?",
+      "answer": "Một số ngành đào tạo có yêu cầu năng lực ngoại ngữ đầu vào (như Ngôn ngữ Anh, Quản trị dịch vụ du lịch và lữ hành, Quản trị khách sạn...) có thể áp dụng điều kiện điểm tối thiểu môn Tiếng Anh theo thông báo tuyển sinh hàng năm.",
+      "keywords": "tiêu chí phụ, điều kiện môn tiếng Anh, điểm tối thiểu",
+      "source_title": "Ngành nghề, tổ hợp và điều kiện điểm Tiếng Anh xét tuyển - NTU",
+      "source_url": "https://tuyensinh.ntu.edu.vn/de-an-tuyen-sinh/nganh-nghe-va-chi-tieu",
+      "doc_type": "Tài liệu gốc (Tuần 3)"
+    },
+    {
+      "doc_id": 16,
+      "category": "Phương thức xét tuyển",
+      "question": "Thí sinh đăng ký xét tuyển nhiều nguyện vọng vào các ngành khác nhau của trường được xếp thứ tự ưu tiên thế nào?",
+      "answer": "Các nguyện vọng đăng ký vào Trường Đại học Nha Trang được xét bình đẳng theo điểm từ cao xuống thấp không phân biệt thứ tự nguyện vọng, nhưng hệ thống của Bộ GD&ĐT sẽ chỉ công nhận trúng tuyển vào 1 nguyện vọng cao nhất mà thí sinh đủ điều kiện.",
+      "keywords": "nguyện vọng, thứ tự ưu tiên, xét bình đẳng, trúng tuyển",
+      "source_title": "Quy chế tuyển sinh đại học chính quy - Thứ tự nguyện vọng xét tuyển NTU",
+      "source_url": "https://tuyensinh.ntu.edu.vn/uploads/2/files/2023/QD%20405%20(03.4.2023)%20vv%20ban%20hanh%20Quy%20che%20tuyen%20sinh%20dai%20hoc%20cua%20Truong%20DH%20Nha%20Trang.pdf",
+      "doc_type": "Tài liệu gốc (Tuần 3)"
+    },
+    {
+      "doc_id": 17,
+      "category": "Phương thức xét tuyển",
+      "question": "Điểm ưu tiên khu vực và đối tượng chính sách được cộng như thế nào khi xét tuyển?",
+      "answer": "Điểm ưu tiên khu vực (KV1, KV2, KV2-NT) và đối tượng ưu tiên được cộng trực tiếp vào tổng điểm xét tuyển (thang điểm 30). Với thí sinh đạt tổng điểm từ 22.5 trở lên, mức điểm ưu tiên sẽ giảm tuyến tính theo công thức của Bộ GD&ĐT.",
+      "keywords": "điểm ưu tiên, khu vực, đối tượng chính sách, giảm tuyến tính, 22.5",
+      "source_title": "Quy chế tuyển sinh đại học - Chính sách điểm ưu tiên khu vực, đối tượng",
+      "source_url": "https://tuyensinh.ntu.edu.vn/uploads/2/files/2023/QD%20405%20(03.4.2023)%20vv%20ban%20hanh%20Quy%20che%20tuyen%20sinh%20dai%20hoc%20cua%20Truong%20DH%20Nha%20Trang.pdf",
+      "doc_type": "Tài liệu gốc (Tuần 3)"
+    },
+    {
+      "doc_id": 18,
+      "category": "Phương thức xét tuyển",
+      "question": "Làm sao để đăng ký xét tuyển học bạ trực tuyến vào Trường Đại học Nha Trang?",
+      "answer": "Thí sinh truy cập hệ thống đăng ký xét tuyển trực tuyến của Trường Đại học Nha Trang tại địa chỉ xettuyen.ntu.edu.vn, điền thông tin cá nhân, nhập điểm các môn trong học bạ và tải ảnh chụp học bạ THPT lên hệ thống.",
+      "keywords": "đăng ký trực tuyến, xettuyen.ntu.edu.vn, tải ảnh học bạ",
+      "source_title": "Hướng dẫn đăng ký xét tuyển và nộp lệ phí trực tuyến - NTU",
+      "source_url": "https://tuyensinh.ntu.edu.vn/page/Huong-dan-%C4%91ong-le-phi-online",
+      "doc_type": "Tài liệu gốc (Tuần 3)"
+    },
+    {
+      "doc_id": 19,
+      "category": "Ngành đào tạo & Điểm chuẩn",
+      "question": "Ngành Công nghệ thông tin tại Trường Đại học Nha Trang có những chuyên ngành nào?",
+      "answer": "Sinh viên theo học ngành Công nghệ thông tin (mã ngành 7480201) tại Khoa Công nghệ Thông tin được định hướng chuyên sâu vào các chuyên ngành: Kỹ thuật phần mềm (Công nghệ phần mềm), Hệ thống thông tin, Mạng máy tính và truyền thông dữ liệu.",
+      "keywords": "công nghệ thông tin, 7480201, chuyên ngành, kỹ thuật phần mềm, hệ thống thông tin",
+      "source_title": "Chương trình đào tạo Ngành Công nghệ thông tin (7480201) - Khoa CNTT NTU",
+      "source_url": "https://khoacntt.ntu.edu.vn/%C4%91ao-tao/ct%C4%91t-nganh-cong-nghe-thong-tin",
+      "doc_type": "Tài liệu gốc (Tuần 3)"
+    },
+    {
+      "doc_id": 20,
+      "category": "Ngành đào tạo & Điểm chuẩn",
+      "question": "Các tổ hợp môn xét tuyển vào ngành Công nghệ thông tin gồm những tổ hợp nào?",
+      "answer": "Ngành Công nghệ thông tin tại Trường Đại học Nha Trang xét tuyển 4 tổ hợp môn chính: A00 (Toán, Vật lý, Hóa học), A01 (Toán, Vật lý, Tiếng Anh), D01 (Toán, Ngữ văn, Tiếng Anh) và D07 (Toán, Hóa học, Tiếng Anh).",
+      "keywords": "tổ hợp môn, A00, A01, D01, D07, công nghệ thông tin",
+      "source_title": "Tra cứu ngành và tổ hợp môn xét tuyển Đại học chính quy NTU",
+      "source_url": "https://tuyensinh.ntu.edu.vn/%C4%91ai-hoc/tra-cuu-nganh-to-hop-xet-tuyen",
+      "doc_type": "Tài liệu gốc (Tuần 3)"
+    },
+    {
+      "doc_id": 21,
+      "category": "Ngành đào tạo & Điểm chuẩn",
+      "question": "Điểm chuẩn trúng tuyển ngành Công nghệ thông tin các năm gần đây là bao nhiêu?",
+      "answer": "Điểm chuẩn ngành Công nghệ thông tin theo phương thức xét điểm thi tốt nghiệp THPT thường nằm trong nhóm cao của trường, dao động từ 21.5 đến 23.0 điểm (thang 30), và khoảng 700 - 750 điểm đối với phương thức Đánh giá năng lực ĐHQG TP.HCM.",
+      "keywords": "điểm chuẩn, trúng tuyển, công nghệ thông tin, điểm thi THPT",
+      "source_title": "Điểm chuẩn trúng tuyển các năm - Ngành Công nghệ thông tin (7480201)",
+      "source_url": "https://tuyensinh.ntu.edu.vn/diem-trung-tuyen-cac-nam",
+      "doc_type": "Tài liệu gốc (Tuần 3)"
+    },
+    {
+      "doc_id": 22,
+      "category": "Ngành đào tạo & Điểm chuẩn",
+      "question": "Chương trình đào tạo chuyên ngành Kỹ thuật phần mềm tại Khoa CNTT trang bị những kiến thức gì?",
+      "answer": "Sinh viên chuyên ngành Kỹ thuật phần mềm được đào tạo chuyên sâu về lập trình hướng đối tượng (C++, Java, C# .NET), phát triển ứng dụng Web (ASP.NET Core, JavaScript), cơ sở dữ liệu SQL Server, phân tích thiết kế hệ thống (BFD, DFD, ERD), kiểm thử phần mềm (QA/Testing) và trí tuệ nhân tạo.",
+      "keywords": "kỹ thuật phần mềm, lập trình C#, .NET, SQL Server, phân tích thiết kế hệ thống",
+      "source_title": "Khung chương trình đào tạo ngành Công nghệ thông tin - Khoa CNTT NTU",
+      "source_url": "https://khoacntt.ntu.edu.vn/%C4%91ao-tao/ct%C4%91t-nganh-cong-nghe-thong-tin",
+      "doc_type": "Tài liệu gốc (Tuần 3)"
+    },
+    {
+      "doc_id": 23,
+      "category": "Ngành đào tạo & Điểm chuẩn",
+      "question": "Ngoài ngành Công nghệ thông tin, trường còn đào tạo những ngành công nghệ kỹ thuật mũi nhọn nào?",
+      "answer": "Khối kỹ thuật - công nghệ của trường rất đa dạng, bao gồm: Công nghệ kỹ thuật cơ khí, Công nghệ kỹ thuật ô tô, Công nghệ chế tạo máy, Kỹ thuật điện, Kỹ thuật điều khiển và tự động hóa, Kỹ thuật tàu thủy, Công nghệ thực phẩm và Công nghệ sinh học.",
+      "keywords": "khối kỹ thuật, cơ khí, ô tô, điện, tự động hóa, công nghệ thực phẩm",
+      "source_title": "Danh mục ngành nghề và chỉ tiêu nhóm Kỹ thuật - Công nghệ NTU",
+      "source_url": "https://tuyensinh.ntu.edu.vn/nganh-nghe-va-chi-tieu",
+      "doc_type": "Tài liệu gốc (Tuần 3)"
+    },
+    {
+      "doc_id": 24,
+      "category": "Ngành đào tạo & Điểm chuẩn",
+      "question": "Các ngành thuộc lĩnh vực Kinh tế, Quản trị và Du lịch tại Trường Đại học Nha Trang gồm những ngành nào?",
+      "answer": "Lĩnh vực Kinh tế - Du lịch gồm các ngành có điểm chuẩn rất cạnh tranh như: Quản trị kinh doanh, Marketing, Kinh doanh thương mại, Kế toán, Tài chính - Ngân hàng, Kinh tế phát triển, Quản trị dịch vụ du lịch và lữ hành, Quản trị khách sạn.",
+      "keywords": "kinh tế, quản trị kinh doanh, marketing, kế toán, du lịch, khách sạn",
+      "source_title": "Danh mục ngành nghề và chỉ tiêu nhóm Kinh tế - Quản trị - Du lịch NTU",
+      "source_url": "https://tuyensinh.ntu.edu.vn/nganh-nghe-va-chi-tieu",
+      "doc_type": "Tài liệu gốc (Tuần 3)"
+    },
+    {
+      "doc_id": 25,
+      "category": "Ngành đào tạo & Điểm chuẩn",
+      "question": "Thế mạnh truyền thống về lĩnh vực Thủy sản và Kinh tế biển của Trường Đại học Nha Trang gồm những ngành gì?",
+      "answer": "Là trường đại học đầu ngành về khoa học biển và thủy sản tại Việt Nam, trường đào tạo các ngành trọng điểm: Nuôi trồng thủy sản, Bệnh học thủy sản, Quản lý thủy sản, Khai thác thủy sản, Chế biến thủy sản và Khoa học hàng hải.",
+      "keywords": "thủy sản, nuôi trồng thủy sản, chế biến thủy sản, khoa học hàng hải, kinh tế biển",
+      "source_title": "Danh mục ngành nghề nhóm Thủy sản, Sinh học và Thực phẩm - NTU",
+      "source_url": "https://tuyensinh.ntu.edu.vn/%C4%91ai-hoc/tra-cuu-nganh-to-hop-xet-tuyen",
+      "doc_type": "Tài liệu gốc (Tuần 3)"
+    },
+    {
+      "doc_id": 26,
+      "category": "Ngành đào tạo & Điểm chuẩn",
+      "question": "Chỉ tiêu tuyển sinh riêng cho ngành Công nghệ thông tin mỗi năm là khoảng bao nhiêu sinh viên?",
+      "answer": "Mỗi năm, ngành Công nghệ thông tin tại Trường Đại học Nha Trang tuyển khoảng 200 đến 250 chỉ tiêu đại học chính quy, chia thành các lớp chuyên ngành (như 66CNTT.1, 66CNTT.2, 66CNTT.3...) để đảm bảo chất lượng thực hành phòng máy.",
+      "keywords": "chỉ tiêu ngành CNTT, số lượng sinh viên, phân lớp CNTT",
+      "source_title": "Ngành nghề và chỉ tiêu tuyển sinh của Trường Đại học Nha Trang",
+      "source_url": "https://tuyensinh.ntu.edu.vn/de-an-tuyen-sinh/nganh-nghe-va-chi-tieu",
+      "doc_type": "Tài liệu gốc (Tuần 3)"
+    },
+    {
+      "doc_id": 27,
+      "category": "Ngành đào tạo & Điểm chuẩn",
+      "question": "Trường Đại học Nha Trang có đào tạo ngành Ngôn ngữ Anh và Ngôn ngữ Trung Quốc không?",
+      "answer": "Khoa Ngoại ngữ của trường hiện đào tạo cử nhân ngành Ngôn ngữ Anh (gồm các chuyên ngành Tiếng Anh thương mại, Tiếng Anh du lịch, Phương pháp giảng dạy) và kết hợp giảng dạy các học phần ngoại ngữ tiếng Trung, tiếng Nhật, tiếng Hàn, tiếng Pháp.",
+      "keywords": "ngôn ngữ Anh, ngoại ngữ, tiếng Anh thương mại, tiếng Anh du lịch",
+      "source_title": "Giới thiệu ngành Ngôn ngữ Anh (7220201) - Cổng Tuyển sinh NTU",
+      "source_url": "https://tuyensinh.ntu.edu.vn/nganh-nghe-va-chi-tieu/kinh-te-ngoai-ngu/ngon-ngu-anh",
+      "doc_type": "Tài liệu gốc (Tuần 3)"
+    },
+    {
+      "doc_id": 28,
+      "category": "Ngành đào tạo & Điểm chuẩn",
+      "question": "Điểm chuẩn giữa các tổ hợp xét tuyển A00, A01, D01 trong cùng ngành Công nghệ thông tin có chênh lệch nhau không?",
+      "answer": "Nhà trường áp dụng một mức điểm chuẩn trúng tuyển chung duy nhất cho tất cả các tổ hợp môn xét tuyển (A00, A01, D01, D07) trong cùng ngành Công nghệ thông tin, không phân biệt điểm chênh lệch giữa các tổ hợp.",
+      "keywords": "chênh lệch tổ hợp, điểm chuẩn chung, A00, A01, D01",
+      "source_title": "Thông báo điểm chuẩn trúng tuyển các năm theo tổ hợp môn - NTU",
+      "source_url": "https://tuyensinh.ntu.edu.vn/diem-trung-tuyen-cac-nam",
+      "doc_type": "Tài liệu gốc (Tuần 3)"
+    },
+    {
+      "doc_id": 29,
+      "category": "Học phí & Lệ phí",
+      "question": "Mức học phí ngành Công nghệ thông tin hệ đại trà là bao nhiêu?",
+      "answer": "Học phí ngành Công nghệ thông tin hệ đại trà tại Trường Đại học Nha Trang được tính theo số tín chỉ sinh viên thực tế đăng ký trong từng học kỳ. Mức thu trung bình dao động khoảng 7.500.000 đến 9.000.000 VNĐ/học kỳ (tương đương khoảng 420.000 - 480.000 VNĐ/tín chỉ).",
+      "keywords": "học phí, công nghệ thông tin, tín chỉ, đại trà, học kỳ",
+      "source_title": "Thông báo 831/TB-ĐHNT về mức thu học phí các ngành Đại học chính quy",
+      "source_url": "https://ntu.edu.vn/Uploads/56/TB%20831.pdf",
+      "doc_type": "Tài liệu gốc (Tuần 3)"
+    },
+    {
+      "doc_id": 30,
+      "category": "Học phí & Lệ phí",
+      "question": "Đơn giá học phí một tín chỉ giữa nhóm ngành Kỹ thuật - Công nghệ và nhóm ngành Kinh tế có khác nhau không?",
+      "answer": "Theo quy định về khung học phí công lập của Chính phủ (Nghị định 81/2021/NĐ-CP và Nghị định 97/2023/NĐ-CP), nhóm ngành Kỹ thuật - Công nghệ (như CNTT, Cơ khí, Ô tô) có hệ số thực hành phòng máy cao hơn nên đơn giá mỗi tín chỉ cao hơn khoảng 10% - 15% so với khối Kinh tế - Xã hội.",
+      "keywords": "đơn giá tín chỉ, khối kỹ thuật, khối kinh tế, Nghị định 97",
+      "source_title": "Quyết định 1131/QĐ-ĐHNT về mức thu học phí theo tín chỉ các khối ngành",
+      "source_url": "https://pdtsaudaihoc.ntu.edu.vn/Uploads/22/files/pdf/Q%C4%90%201131.pdf",
+      "doc_type": "Tài liệu gốc (Tuần 3)"
+    },
+    {
+      "doc_id": 31,
+      "category": "Học phí & Lệ phí",
+      "question": "Sinh viên đóng học phí hàng kỳ bằng những hình thức thanh toán nào?",
+      "answer": "Sinh viên thực hiện đóng học phí không dùng tiền mặt bằng cách chuyển khoản trực tuyến qua ứng dụng ngân hàng liên kết (Vietcombank, BIDV, Agribank, VietinBank) hoặc quét mã QR thanh toán trực tiếp trên Cổng thông tin sinh viên của trường.",
+      "keywords": "đóng học phí, chuyển khoản, ngân hàng, mã QR, thanh toán trực tuyến",
+      "source_title": "Thông báo về việc đóng học phí HK1 năm học 2025-2026 qua hệ thống ngân hàng",
+      "source_url": "https://phongkhtc.ntu.edu.vn/thong-bao/thong-bao-ve-viec-dong-hoc-phi-hoc-ky-1-nam-hoc-2025-2026",
+      "doc_type": "Tài liệu gốc (Tuần 3)"
+    },
+    {
+      "doc_id": 32,
+      "category": "Học phí & Lệ phí",
+      "question": "Lệ phí đăng ký xét tuyển nguyện vọng đại học đóng như thế nào và bao nhiêu tiền?",
+      "answer": "Thí sinh đóng lệ phí xét tuyển trực tuyến ngay trên Hệ thống hỗ trợ tuyển sinh chung của Bộ GD&ĐT thông qua các kênh ngân hàng/ví điện tử liên kết (mức phí khoảng 20.000 VNĐ/nguyện vọng đối với xét điểm thi THPT theo quy định của Bộ).",
+      "keywords": "lệ phí xét tuyển, thanh toán trực tuyến, nguyện vọng, 20.000 VNĐ",
+      "source_title": "Hướng dẫn đóng lệ phí xét tuyển trực tuyến - Trường ĐH Nha Trang",
+      "source_url": "https://tuyensinh.ntu.edu.vn/page/Huong-dan-%C4%91ong-le-phi-online",
+      "doc_type": "Tài liệu gốc (Tuần 3)"
+    },
+    {
+      "doc_id": 33,
+      "category": "Học phí & Lệ phí",
+      "question": "Khi làm thủ tục nhập học đầu khóa, tân sinh viên cần đóng những khoản phí ban đầu nào?",
+      "answer": "Khi nhập học đầu khóa, ngoài khoản tạm thu học phí học kỳ 1, tân sinh viên đóng các khoản phí bắt buộc gồm: Bảo hiểm y tế sinh viên theo quy định nhà nước, phí khám sức khỏe đầu khóa và phí làm thẻ sinh viên tích hợp thư viện.",
+      "keywords": "phí nhập học, tạm thu học kỳ 1, bảo hiểm y tế, khám sức khỏe, thẻ sinh viên",
+      "source_title": "Các thủ tục nhập học và khoản thu đầu khóa dành cho Tân sinh viên NTU",
+      "source_url": "https://tuyensinh.ntu.edu.vn/dai-hoc/nhap-hoc",
+      "doc_type": "Tài liệu gốc (Tuần 3)"
+    },
+    {
+      "doc_id": 34,
+      "category": "Học phí & Lệ phí",
+      "question": "Học phí các học phần học lại hoặc học cải thiện điểm được tính như thế nào?",
+      "answer": "Đối với các học phần sinh viên đăng ký học lại (do điểm F) hoặc học cải thiện điểm (từ điểm D, D+ lên điểm cao hơn), học phí được tính theo đúng số tín chỉ của học phần đó nhân với đơn giá tín chỉ hiện hành tại thời điểm đăng ký.",
+      "keywords": "học phí học lại, học cải thiện điểm, điểm F, điểm D",
+      "source_title": "Quyết định 1052/QĐ-ĐHNT (17/07/2025) - Quy định học lại và cải thiện điểm",
+      "source_url": "https://pdtdaihoc.ntu.edu.vn/uploads/38//245-Quyet%20dinh%201052%20(17-7-2025)%20ban%20hanh%20quy%20che%20dao%20tao%20trinh%20do%20dai%20hoc%20cua%20Truong%20DHNT.pdf",
+      "doc_type": "Tài liệu gốc (Tuần 3)"
+    },
+    {
+      "doc_id": 35,
+      "category": "Học phí & Lệ phí",
+      "question": "Nếu sinh viên gặp hoàn cảnh khó khăn đột xuất chưa kịp đóng học phí đúng hạn thì phải làm sao?",
+      "answer": "Sinh viên có hoàn cảnh khó khăn chưa thể hoàn thành học phí đúng hạn có thể làm đơn xin gia hạn thời gian đóng học phí có xác nhận của địa phương hoặc Khoa quản lý gửi Phòng Công tác Chính trị - Sinh viên và Phòng Đào tạo để không bị khóa tài khoản đăng ký môn.",
+      "keywords": "gia hạn học phí, khó khăn đột xuất, đơn xin gia hạn",
+      "source_title": "Thông báo về việc đóng học phí và hỗ trợ gia hạn - Phòng KHTC NTU",
+      "source_url": "https://phongkhtc.ntu.edu.vn/thong-bao/thong-bao-ve-viec-dong-hoc-phi-hoc-ky-1-nam-hoc-2025-2026",
+      "doc_type": "Tài liệu gốc (Tuần 3)"
+    },
+    {
+      "doc_id": 36,
+      "category": "Học phí & Lệ phí",
+      "question": "Sinh viên có được xác nhận hồ sơ để vay vốn tín dụng sinh viên tại Ngân hàng Chính sách xã hội không?",
+      "answer": "Nhà trường cấp Giấy xác nhận sinh viên đang theo học ngay từ đầu mỗi học kỳ để sinh viên thuộc hộ nghèo, cận nghèo, gia đình khó khăn tài chính làm thủ tục vay vốn tín dụng ưu đãi tại Ngân hàng Chính sách xã hội địa phương.",
+      "keywords": "vay vốn sinh viên, ngân hàng chính sách xã hội, giấy xác nhận sinh viên",
+      "source_title": "Diễn đàn đối thoại chính sách hỗ trợ sinh viên (tín dụng, miễn giảm) NTU",
+      "source_url": "https://ntu.edu.vn/tin-tuc/dien-dan-doi-thoai-chinh-sach-ho-tro-sinh-vien-tai-truong-dai-hoc-nha-trang",
+      "doc_type": "Tài liệu gốc (Tuần 3)"
+    },
+    {
+      "doc_id": 37,
+      "category": "Chuẩn đầu ra & Đào tạo",
+      "question": "Chuẩn đầu ra ngoại ngữ tiếng Anh đối với sinh viên hệ đại học chính quy là gì?",
+      "answer": "Sinh viên tốt nghiệp đại học chính quy khối không chuyên ngữ (bao gồm ngành Công nghệ thông tin) bắt buộc đạt chuẩn đầu ra tiếng Anh tối thiểu bậc 3/6 theo Khung năng lực ngoại ngữ 6 bậc Việt Nam (tương đương B1) hoặc chứng chỉ quốc tế TOEIC từ 450 điểm, IELTS từ 4.5 trở lên.",
+      "keywords": "chuẩn đầu ra, tiếng anh, TOEIC 450, IELTS 4.5, B1, tốt nghiệp",
+      "source_title": "Quyết định 1128/QĐ-ĐHNT Quy định đào tạo và chuẩn đầu ra ngoại ngữ khối không chuyên ngữ",
+      "source_url": "https://pdtdaihoc.ntu.edu.vn/uploads/38/files/Van-Ban-Truong/20180920_QD%201128_Quy%20dinh%20dao%20tao%20ngoai%20ngu%20khoi%20khong%20chuyen%20ngu.pdf",
+      "doc_type": "Tài liệu gốc (Tuần 3)"
+    },
+    {
+      "doc_id": 38,
+      "category": "Chuẩn đầu ra & Đào tạo",
+      "question": "Thời gian đào tạo hệ đại học chính quy theo học chế tín chỉ là mấy năm?",
+      "answer": "Chương trình đào tạo cử nhân và kỹ sư đại học chính quy được thiết kế theo học chế tín chỉ từ 130 đến 150 tín chỉ, thời gian đào tạo chuẩn từ 3.5 đến 4 năm (7 - 8 học kỳ chính). Sinh viên giỏi có thể đăng ký học vượt để tốt nghiệp sớm trong 3 - 3.5 năm.",
+      "keywords": "thời gian đào tạo, tín chỉ, mấy năm, học vượt, tốt nghiệp sớm",
+      "source_title": "Chương trình đào tạo Đại học chính quy theo hệ thống tín chỉ - NTU",
+      "source_url": "https://tuyensinh.ntu.edu.vn/dai-hoc",
+      "doc_type": "Tài liệu gốc (Tuần 3)"
+    },
+    {
+      "doc_id": 39,
+      "category": "Chuẩn đầu ra & Đào tạo",
+      "question": "Sinh viên có được phép đăng ký học cùng lúc hai chương trình đào tạo (song ngành) không?",
+      "answer": "Sau khi hoàn thành năm học thứ nhất, nếu sinh viên có điểm trung bình chung tích lũy đạt từ loại Khá trở lên (GPA >= 2.5/4.0) hoặc đạt loại Trung bình kèm điều kiện trúng tuyển ngành thứ hai thì được phép đăng ký học song ngành để nhận hai bằng đại học chính quy.",
+      "keywords": "học song ngành, hai bằng, chương trình thứ hai, GPA 2.5",
+      "source_title": "Quyết định 1052/QĐ-ĐHNT (2025) - Quy định học cùng lúc hai chương trình",
+      "source_url": "https://pdtdaihoc.ntu.edu.vn/uploads/38//245-Quyet%20dinh%201052%20(17-7-2025)%20ban%20hanh%20quy%20che%20dao%20tao%20trinh%20do%20dai%20hoc%20cua%20Truong%20DHNT.pdf",
+      "doc_type": "Tài liệu gốc (Tuần 3)"
+    },
+    {
+      "doc_id": 40,
+      "category": "Chuẩn đầu ra & Đào tạo",
+      "question": "Cách quy đổi điểm học phần từ thang điểm 10 sang thang điểm chữ (A, B, C, D, F) và thang điểm 4 tại trường như thế nào?",
+      "answer": "Nhà trường áp dụng thang điểm 4 chuẩn tín chỉ: Điểm A (8.5 - 10.0) quy đổi 4.0; Điểm B+ (8.0 - 8.4) quy đổi 3.5; Điểm B (7.0 - 7.9) quy đổi 3.0; Điểm C+ (6.5 - 6.9) quy đổi 2.5; Điểm C (5.5 - 6.4) quy đổi 2.0; Điểm D+ (5.0 - 5.4) quy đổi 1.5; Điểm D (4.0 - 4.9) quy đổi 1.0; dưới 4.0 là điểm F (0 điểm, phải học lại).",
+      "keywords": "thang điểm 4, điểm chữ, A B C D F, quy đổi điểm, GPA",
+      "source_title": "Quyết định 753/QĐ-ĐHNT & 1052/QĐ-ĐHNT - Quy định đánh giá học phần thang điểm 4",
+      "source_url": "https://pdtdaihoc.ntu.edu.vn/uploads/38/files/Van-Ban-Truong/20210813_Q%C4%90%20753%20vv%20ban%20h%C3%A0nh%20Quy%20ch%E1%BA%BF%20%C4%91%C3%A0o%20t%E1%BA%A1o_13_8_2021.pdf",
+      "doc_type": "Tài liệu gốc (Tuần 3)"
+    },
+    {
+      "doc_id": 41,
+      "category": "Chuẩn đầu ra & Đào tạo",
+      "question": "Một năm học tại Trường Đại học Nha Trang có mấy học kỳ và học kỳ hè có bắt buộc không?",
+      "answer": "Mỗi năm học gồm 2 học kỳ chính (Học kỳ 1 từ tháng 8 đến tháng 12, Học kỳ 2 từ tháng 1 đến tháng 5) và 1 học kỳ phụ (Học kỳ hè từ tháng 6 đến tháng 7). Học kỳ hè là tự nguyện để sinh viên đăng ký học vượt hoặc học lại trả nợ môn.",
+      "keywords": "học kỳ chính, học kỳ hè, tự nguyện, học vượt, trả nợ môn",
+      "source_title": "Quy chế đào tạo trình độ đại học - Tổ chức học kỳ chính và học kỳ hè",
+      "source_url": "https://pdtdaihoc.ntu.edu.vn/uploads/38/files/Van-Ban-Truong/20210813_Q%C4%90%20753%20vv%20ban%20h%C3%A0nh%20Quy%20ch%E1%BA%BF%20%C4%91%C3%A0o%20t%E1%BA%A1o_13_8_2021.pdf",
+      "doc_type": "Tài liệu gốc (Tuần 3)"
+    },
+    {
+      "doc_id": 42,
+      "category": "Chuẩn đầu ra & Đào tạo",
+      "question": "Trong mỗi học kỳ chính, một sinh viên được phép đăng ký tối thiểu và tối đa bao nhiêu tín chỉ?",
+      "answer": "Trong mỗi học kỳ chính (trừ học kỳ cuối khóa), sinh viên phải đăng ký tối thiểu 14 tín chỉ và tối đa không quá 25 tín chỉ đối với sinh viên có học lực bình thường (sinh viên học lực Giỏi trở lên được phép đăng ký nhiều hơn để học vượt).",
+      "keywords": "số tín chỉ tối thiểu, tối đa, đăng ký học phần, 14 tín chỉ, 25 tín chỉ",
+      "source_title": "Quy chế đào tạo trình độ đại học - Đăng ký khối lượng tín chỉ từng học kỳ",
+      "source_url": "https://pdtdaihoc.ntu.edu.vn/uploads/38//245-Quyet%20dinh%201052%20(17-7-2025)%20ban%20hanh%20quy%20che%20dao%20tao%20trinh%20do%20dai%20hoc%20cua%20Truong%20DHNT.pdf",
+      "doc_type": "Tài liệu gốc (Tuần 3)"
+    },
+    {
+      "doc_id": 43,
+      "category": "Chuẩn đầu ra & Đào tạo",
+      "question": "Đồ án Cơ sở ngành và Đồ án Tốt nghiệp của sinh viên ngành Công nghệ thông tin được thực hiện khi nào?",
+      "answer": "Sinh viên ngành Công nghệ thông tin thực hiện học phần Đồ án Cơ sở ngành vào năm thứ 3 để rèn luyện kỹ năng cài đặt thuật toán, cơ sở dữ liệu và xây dựng phần mềm; sau đó thực hiện Đồ án Tốt nghiệp (hoặc học phần thay thế tốt nghiệp) vào học kỳ cuối năm thứ 4.",
+      "keywords": "đồ án cơ sở ngành, đồ án tốt nghiệp, công nghệ thông tin, năm thứ 3",
+      "source_title": "Chương trình đào tạo ngành Công nghệ thông tin (Đồ án cơ sở & tốt nghiệp)",
+      "source_url": "https://khoacntt.ntu.edu.vn/%C4%91ao-tao/ct%C4%91t-nganh-cong-nghe-thong-tin",
+      "doc_type": "Tài liệu gốc (Tuần 3)"
+    },
+    {
+      "doc_id": 44,
+      "category": "Chuẩn đầu ra & Đào tạo",
+      "question": "Điều kiện để sinh viên được xét công nhận tốt nghiệp đại học chính quy gồm những gì?",
+      "answer": "Để được xét tốt nghiệp, sinh viên phải tích lũy đủ số tín chỉ của chương trình đào tạo, điểm trung bình chung tích lũy toàn khóa (GPA) đạt từ 2.00/4.00 trở lên, đạt chuẩn đầu ra Ngoại ngữ, Tin học và có chứng chỉ Giáo dục thể chất, Giáo dục quốc phòng - an ninh.",
+      "keywords": "điều kiện tốt nghiệp, tích lũy tín chỉ, GPA 2.0, quốc phòng, thể chất",
+      "source_title": "Quyết định 1052/QĐ-ĐHNT (2025) - Điều kiện xét công nhận tốt nghiệp đại học",
+      "source_url": "https://pdtdaihoc.ntu.edu.vn/uploads/38//245-Quyet%20dinh%201052%20(17-7-2025)%20ban%20hanh%20quy%20che%20dao%20tao%20trinh%20do%20dai%20hoc%20cua%20Truong%20DHNT.pdf",
+      "doc_type": "Tài liệu gốc (Tuần 3)"
+    },
+    {
+      "doc_id": 45,
+      "category": "Học bổng & Chính sách",
+      "question": "Nhà trường có những loại học bổng nào dành cho tân sinh viên và sinh viên đang theo học?",
+      "answer": "Trường Đại học Nha Trang có hệ thống học bổng phong phú gồm: Học bổng Thủ khoa trường và Thủ khoa ngành đầu vào (miễn 100% học phí năm đầu), Học bổng Khuyến khích học tập xét theo từng học kỳ và Học bổng tài trợ từ các doanh nghiệp trong và ngoài nước.",
+      "keywords": "học bổng, thủ khoa, khuyến khích học tập, tân sinh viên, doanh nghiệp",
+      "source_title": "Thông báo tuyển sinh & Chính sách học bổng thủ khoa, khuyến khích học tập NTU",
+      "source_url": "https://tuyensinh.ntu.edu.vn/thong-bao/dhnt-thong-bao-tuyen-sinh-dai-hoc-he-chinh-quy-nam-2021",
+      "doc_type": "Tài liệu gốc (Tuần 3)"
+    },
+    {
+      "doc_id": 46,
+      "category": "Học bổng & Chính sách",
+      "question": "Điều kiện để sinh viên đạt Học bổng Khuyến khích học tập hàng học kỳ là gì?",
+      "answer": "Sinh viên được xét cấp Học bổng Khuyến khích học tập khi đăng ký tối thiểu 15 tín chỉ trong học kỳ chính, có điểm trung bình học tập và điểm rèn luyện đạt từ loại Khá trở lên, không có học phần nào bị điểm dưới C (hoặc điểm F) trong học kỳ xét.",
+      "keywords": "học bổng khuyến khích học tập, điểm rèn luyện, loại khá giỏi, 15 tín chỉ",
+      "source_title": "Quyết định 317/QĐ-ĐHNT về mức Học bổng Khuyến khích học tập hệ ĐH chính quy",
+      "source_url": "https://ntu.edu.vn/uploads/57/Doc/777/qd-317_muc-hbkkht-2024-2025-pdf.pdf",
+      "doc_type": "Tài liệu gốc (Tuần 3)"
+    },
+    {
+      "doc_id": 47,
+      "category": "Học bổng & Chính sách",
+      "question": "Chính sách miễn giảm học phí cho sinh viên diện chính sách và hộ nghèo được quy định thế nào?",
+      "answer": "Sinh viên thuộc đối tượng con thương binh, liệt sĩ, người có công với cách mạng, sinh viên khuyết tật, dân tộc thiểu số rất ít người hoặc thuộc hộ nghèo, cận nghèo được miễn 100% hoặc giảm 50% - 70% học phí theo đúng Nghị định 81/2021/NĐ-CP của Chính phủ.",
+      "keywords": "miễn giảm học phí, chính sách, hộ nghèo, thương binh, Nghị định 81",
+      "source_title": "Chính sách miễn giảm học phí và hỗ trợ chi phí học tập sinh viên NTU",
+      "source_url": "https://ntu.edu.vn/tin-tuc/dien-dan-doi-thoai-chinh-sach-ho-tro-sinh-vien-tai-truong-dai-hoc-nha-trang",
+      "doc_type": "Tài liệu gốc (Tuần 3)"
+    },
+    {
+      "doc_id": 48,
+      "category": "Học bổng & Chính sách",
+      "question": "Sinh viên theo học các ngành Thủy sản truyền thống có được hưởng học bổng ưu đãi đặc thù không?",
+      "answer": "Nhà trường dành quỹ học bổng khuyến khích đặc biệt (hỗ trợ từ 50% đến 100% học phí học kỳ đầu và ưu tiên học bổng doanh nghiệp thủy sản) cho thí sinh trúng tuyển vào các ngành truyền thống như Khai thác thủy sản, Quản lý thủy sản, Kỹ thuật tàu thủy.",
+      "keywords": "học bổng thủy sản, ngành đặc thù, khai thác thủy sản, hỗ trợ học phí",
+      "source_title": "Chương trình đào tạo đặt hàng Minh Phú - NTU (Hỗ trợ 75% học phí & học bổng)",
+      "source_url": "https://tuyensinh.ntu.edu.vn/chuong-trinh-dao-tao-minh-phu-ntu",
+      "doc_type": "Tài liệu gốc (Tuần 3)"
+    },
+    {
+      "doc_id": 49,
+      "category": "Học bổng & Chính sách",
+      "question": "Trường Đại học Nha Trang có chương trình học bổng trao đổi sinh viên quốc tế không?",
+      "answer": "Thông qua mạng lưới hợp tác quốc tế (Erasmus+ châu Âu, NORHED Na Uy, các trường đại học Nhật Bản, Hàn Quốc, Đài Loan), sinh viên có GPA và tiếng Anh tốt được xét cấp học bổng trao đổi ngắn hạn từ 1 đến 2 học kỳ ở nước ngoài.",
+      "keywords": "học bổng quốc tế, trao đổi sinh viên, Erasmus, Nhật Bản, Hàn Quốc",
+      "source_title": "Hoạt động Hợp tác Quốc tế và Học bổng trao đổi Erasmus+ tại ĐH Nha Trang",
+      "source_url": "https://ntu.edu.vn/tin-tuc/truong-dai-hoc-nha-trang-tham-du-cuoc-hop-du-an-erasmus--digital-move-va-hoi-nghi-ulysseus-r-i-tai-slovakia--thuc-day-hop-tac-quoc-te-va-chuyen-doi-so-trong-giao-duc-dai-hoc",
+      "doc_type": "Tài liệu gốc (Tuần 3)"
+    },
+    {
+      "doc_id": 50,
+      "category": "Học bổng & Chính sách",
+      "question": "Điểm rèn luyện của sinh viên được đánh giá như thế nào và ảnh hưởng gì đến quyền lợi học bổng?",
+      "answer": "Điểm rèn luyện được chấm mỗi học kỳ theo thang 100 điểm dựa trên ý thức học tập, chấp hành nội quy và tham gia hoạt động Đoàn - Hội. Điểm rèn luyện là tiêu chí bắt buộc để xét học bổng Khuyến khích học tập, xét ở Ký túc xá và phân loại tốt nghiệp.",
+      "keywords": "điểm rèn luyện, thang 100 điểm, hoạt động Đoàn Hội, xét học bổng",
+      "source_title": "Báo cáo công tác sinh viên, xét điểm rèn luyện và học bổng - Phòng CTSV NTU",
+      "source_url": "https://phongctsv.ntu.edu.vn/uploads/46/files/2025/269-CTSV%20T4.2024.pdf",
+      "doc_type": "Tài liệu gốc (Tuần 3)"
+    },
+    {
+      "doc_id": 51,
+      "category": "Ký túc xá & Đời sống",
+      "question": "Trường Đại học Nha Trang có ký túc xá cho tân sinh viên ở xa không và chi phí bao nhiêu?",
+      "answer": "Khu Ký túc xá nằm ngay trong khuôn viên trường trên đồi La San với sức chứa hơn 3.000 chỗ ở (từ nhà K1 đến K8), ưu tiên cho tân sinh viên khóa mới và diện chính sách. Mức phí nội trú rất ưu đãi, chỉ từ 150.000 đến 350.000 VNĐ/sinh viên/tháng tùy loại phòng.",
+      "keywords": "ký túc xá, nội trú, chỗ ở, đồi La San, chi phí, K1 đến K8",
+      "source_title": "Hệ thống Ký túc xá Trường Đại học Nha Trang (K1 - K8) - Trung tâm PVTH",
+      "source_url": "https://trungtampvth.ntu.edu.vn/dich-vu/he-thong-ky-tuc-xa",
+      "doc_type": "Tài liệu gốc (Tuần 3)"
+    },
+    {
+      "doc_id": 52,
+      "category": "Ký túc xá & Đời sống",
+      "question": "Cơ sở vật chất phục vụ học tập thực hành của Khoa Công nghệ Thông tin như thế nào?",
+      "answer": "Khoa Công nghệ Thông tin được trang bị hệ thống phòng máy tính cấu hình cao, mạng nội bộ tốc độ cao, thư viện số và các phòng Lab chuyên đề phục vụ lập trình .NET, Java, cơ sở dữ liệu SQL Server, mạng máy tính Cisco và trí tuệ nhân tạo.",
+      "keywords": "cơ sở vật chất, phòng máy, thực hành, khoa công nghệ thông tin, phòng Lab",
+      "source_title": "Cơ sở vật chất phòng máy thực hành và phòng thí nghiệm - ĐH Nha Trang",
+      "source_url": "https://ntu.edu.vn/gioi-thieu/co-so-vat-chat",
+      "doc_type": "Tài liệu gốc (Tuần 3)"
+    },
+    {
+      "doc_id": 53,
+      "category": "Ký túc xá & Đời sống",
+      "question": "Thư viện và khu thể thao của Trường Đại học Nha Trang có những tiện ích gì cho sinh viên?",
+      "answer": "Nhà trường có Thư viện hiện đại 4 tầng với phòng đọc máy lạnh, kho tài liệu số trực tuyến, cùng hệ thống sân vận động cỏ nhân tạo, nhà thi đấu đa năng, sân bóng rổ, bóng chuyền phục vụ rèn luyện thể thao miễn phí cho sinh viên.",
+      "keywords": "thư viện, tài liệu số, sân vận động, nhà thi đấu đa năng",
+      "source_title": "Cơ sở vật chất Thư viện và Khu thể thao - Trường ĐH Nha Trang",
+      "source_url": "https://ntu.edu.vn/gioi-thieu/co-so-vat-chat",
+      "doc_type": "Tài liệu gốc (Tuần 3)"
+    },
+    {
+      "doc_id": 54,
+      "category": "Ký túc xá & Đời sống",
+      "question": "Tân sinh viên đăng ký ở Ký túc xá bằng cách nào và khi nào bắt đầu nhận phòng?",
+      "answer": "Tân sinh viên đăng ký chỗ ở Ký túc xá trực tuyến cùng lúc khi làm thủ tục xác nhận nhập học trên cổng thông tin của trường hoặc nộp đơn trực tiếp tại Ban Quản lý Ký túc xá ngay trong ngày đến trường nhập học.",
+      "keywords": "đăng ký ký túc xá, nhận phòng, ban quản lý ký túc xá",
+      "source_title": "Giới thiệu Ký túc xá và chính sách ưu tiên bố trí nội trú cho tân sinh viên",
+      "source_url": "https://trungtampvth.ntu.edu.vn/Gioi-thieu/Co-so-vat-chat/Ky-tuc-xa",
+      "doc_type": "Tài liệu gốc (Tuần 3)"
+    },
+    {
+      "doc_id": 55,
+      "category": "Hồ sơ & Nhập học",
+      "question": "Hồ sơ xác nhận nhập học đối với tân sinh viên trúng tuyển gồm những giấy tờ gì?",
+      "answer": "Tân sinh viên trúng tuyển cần chuẩn bị: Giấy báo trúng tuyển, Bản chính Giấy chứng nhận kết quả thi tốt nghiệp THPT, Bản sao công chứng Học bạ THPT, Bản sao Giấy khai sinh, Căn cước công dân, Sổ Đoàn viên, Giấy di chuyển nghĩa vụ quân sự (đối với nam) và minh chứng ưu tiên.",
+      "keywords": "hồ sơ nhập học, giấy tờ, học bạ, giấy báo trúng tuyển, nghĩa vụ quân sự",
+      "source_title": "Các thủ tục nhập học và Hồ sơ nhập học 2026 - K68 - Tuyển sinh NTU",
+      "source_url": "https://tuyensinh.ntu.edu.vn/dai-hoc/nhap-hoc",
+      "doc_type": "Tài liệu gốc (Tuần 3)"
+    },
+    {
+      "doc_id": 56,
+      "category": "Hồ sơ & Nhập học",
+      "question": "Nếu thí sinh quên xác nhận nhập học trực tuyến trên hệ thống của Bộ GD&ĐT thì sao?",
+      "answer": "Tất cả thí sinh trúng tuyển ở mọi phương thức đều bắt buộc phải xác nhận nhập học trực tuyến trên Hệ thống của Bộ GD&ĐT trong thời hạn quy định. Nếu quá hạn mà không có lý do chính đáng, thí sinh được xem như từ chối nhập học và bị hủy kết quả trúng tuyển.",
+      "keywords": "xác nhận nhập học trực tuyến, quá hạn, hủy kết quả, Bộ GD&ĐT",
+      "source_title": "Hướng dẫn xác nhận nhập học trực tuyến và các bước nhập học - NTU",
+      "source_url": "https://tuyensinh.ntu.edu.vn/dai-hoc/nhap-hoc",
+      "doc_type": "Tài liệu gốc (Tuần 3)"
+    },
+    {
+      "doc_id": 57,
+      "category": "Hồ sơ & Nhập học",
+      "question": "Nam tân sinh viên nhập học cần làm thủ tục đăng ký tạm hoãn nghĩa vụ quân sự như thế nào?",
+      "answer": "Khi đến nhập học, nam sinh viên nộp Giấy chứng nhận đăng ký nghĩa vụ quân sự và Giấy giới thiệu di chuyển nghĩa vụ quân sự (do Ban Chỉ huy Quân sự cấp xã/phường nơi cư trú cấp) để Nhà trường làm thủ tục tạm hoãn nghĩa vụ quân sự trong suốt khóa học.",
+      "keywords": "nghĩa vụ quân sự, tạm hoãn, nam sinh viên, giấy di chuyển",
+      "source_title": "Thủ tục nhập học và công tác quân sự cho tân sinh viên - Tuyển sinh NTU",
+      "source_url": "https://tuyensinh.ntu.edu.vn/dai-hoc/nhap-hoc",
+      "doc_type": "Tài liệu gốc (Tuần 3)"
+    },
+    {
+      "doc_id": 58,
+      "category": "Cơ hội việc làm & Thực tập",
+      "question": "Sinh viên Khoa Công nghệ Thông tin được đi thực tập doanh nghiệp vào năm thứ mấy và tại những công ty nào?",
+      "answer": "Sinh viên ngành Công nghệ thông tin tham gia học kỳ thực tập doanh nghiệp từ năm thứ 3 và năm thứ 4 tại các doanh nghiệp phần mềm đối tác của Khoa như FPT Software Nha Trang, TMA Solutions, NashTech, Viettel, VNPT và các công ty công nghệ tại Khánh Hòa, TP.HCM.",
+      "keywords": "thực tập doanh nghiệp, công nghệ thông tin, FPT Software, TMA Solutions, việc làm",
+      "source_title": "Chương trình đào tạo và định hướng thực tập doanh nghiệp - Khoa CNTT NTU",
+      "source_url": "https://khoacntt.ntu.edu.vn/%C4%91ao-tao/ct%C4%91t-nganh-cong-nghe-thong-tin",
+      "doc_type": "Tài liệu gốc (Tuần 3)"
+    },
+    {
+      "doc_id": 59,
+      "category": "Cơ hội việc làm & Thực tập",
+      "question": "Tỷ lệ sinh viên Trường Đại học Nha Trang có việc làm sau khi tốt nghiệp là bao nhiêu?",
+      "answer": "Theo báo cáo khảo sát tình hình việc làm sinh viên tốt nghiệp hàng năm được công bố trong Đề án tuyển sinh, tỷ lệ sinh viên Trường Đại học Nha Trang có việc làm trong vòng 12 tháng sau khi ra trường đạt trên 85% - 92% (nhiều ngành kỹ thuật và CNTT đạt trên 95%).",
+      "keywords": "tỷ lệ việc làm, sau khi tốt nghiệp, khảo sát việc làm, 90%",
+      "source_title": "Hợp tác doanh nghiệp và kết nối cơ hội việc làm sinh viên sau tốt nghiệp NTU",
+      "source_url": "https://ets.ntu.edu.vn/tin-tuc-va-su-kien/truong-ky-thuat-va-cong-nghe-%E2%80%93-dai-hoc-nha-trang-ky-ket-ban-ghi-nho-hop-tac-voi-cong-ty-co-phan-tap-doan-khanh-vinh--kvg-",
+      "doc_type": "Tài liệu gốc (Tuần 3)"
+    },
+    {
+      "doc_id": 60,
+      "category": "Cơ hội việc làm & Thực tập",
+      "question": "Nhà trường có tổ chức Ngày hội việc làm (Job Fair) để kết nối sinh viên với nhà tuyển dụng không?",
+      "answer": "Hàng năm vào khoảng tháng 4 - tháng 5, Trường Đại học Nha Trang tổ chức Ngày hội Việc làm (NTU Job Fair) quy tụ gần 100 doanh nghiệp trong và ngoài nước đến phỏng vấn tuyển dụng trực tiếp sinh viên năm cuối và nhận sinh viên thực tập.",
+      "keywords": "ngày hội việc làm, Job Fair, nhà tuyển dụng, phỏng vấn trực tiếp",
+      "source_title": "Ngày hội Việc làm (NTU Job Fair) kết nối doanh nghiệp tuyển dụng sinh viên",
+      "source_url": "https://thanhnien.ntu.edu.vn/tin-tuc/hon-1400-co-hoi-viec-lam-hap-dan-tai-ngay-hoi-viec-lam-nam-2024",
+      "doc_type": "Tài liệu gốc (Tuần 3)"
+    },
+    {
+      "doc_id": 61,
+      "category": "Học phí & Lệ phí",
+      "doc_type": "Tài liệu gây nhiễu (Tuần 4)",
+      "question": "Mức học phí ngành Công nghệ thông tin hệ Chương trình tiên tiến - chất lượng cao (đặc biệt) là bao nhiêu một tín chỉ?",
+      "answer": "Theo Thông báo mức thu học phí của Trường Đại học Nha Trang (TB 831), ngành Công nghệ thông tin thuộc Chương trình đào tạo tiên tiến - chất lượng cao áp dụng mức thu 450.000 VNĐ/tín chỉ cho các học phần giáo dục tổng quát và 1.000.000 VNĐ/tín chỉ cho các học phần cơ sở và chuyên ngành (áp dụng từ Khóa 62 trở về sau).",
+      "keywords": "học phí, công nghệ thông tin, chất lượng cao, chương trình tiên tiến, 1.000.000 VNĐ/tín chỉ",
+      "source_title": "Thông báo 831/TB-ĐHNT về mức thu học phí các chương trình đào tạo",
+      "source_url": "https://ntu.edu.vn/Uploads/56/TB%20831.pdf"
+    },
+    {
+      "doc_id": 62,
+      "category": "Học phí & Lệ phí",
+      "doc_type": "Tài liệu gây nhiễu (Tuần 4)",
+      "question": "Đơn giá học phí ngành Công nghệ thông tin chương trình đạt kiểm định chất lượng áp dụng từ Khóa 65 trở về sau là bao nhiêu?",
+      "answer": "Theo Quyết định 1131/QĐ-ĐHNT ban hành mức thu học phí các chương trình đạt kiểm định chất lượng, ngành Công nghệ thông tin (áp dụng từ Khóa 65 trở về sau) có mức thu 310.000 VNĐ/tín chỉ đối với học phần giáo dục tổng quát và 550.000 VNĐ/tín chỉ đối với học phần cơ sở và chuyên ngành.",
+      "keywords": "học phí, công nghệ thông tin, kiểm định chất lượng, khóa 65, 550.000 VNĐ/tín chỉ",
+      "source_title": "Quyết định 1131/QĐ-ĐHNT về mức thu học phí các CTĐT đạt kiểm định",
+      "source_url": "https://pdtsaudaihoc.ntu.edu.vn/Uploads/22/files/pdf/Q%C4%90%201131.pdf"
+    },
+    {
+      "doc_id": 63,
+      "category": "Học phí & Lệ phí",
+      "doc_type": "Tài liệu gây nhiễu (Tuần 4)",
+      "question": "Mức thu học phí theo tín chỉ của ngành Quản trị kinh doanh đạt kiểm định chất lượng tại Trường Đại học Nha Trang là bao nhiêu?",
+      "answer": "Đối với ngành Quản trị kinh doanh đạt kiểm định chất lượng (áp dụng từ Khóa 65 trở về sau theo QĐ 1131), sinh viên đóng học phí 310.000 VNĐ/tín chỉ cho các học phần giáo dục tổng quát và 500.000 VNĐ/tín chỉ cho các học phần cơ sở và chuyên ngành.",
+      "keywords": "học phí, quản trị kinh doanh, tín chỉ, khóa 65, 500.000 VNĐ/tín chỉ",
+      "source_title": "Quyết định 1131/QĐ-ĐHNT - Bảng học phí ngành Quản trị kinh doanh",
+      "source_url": "https://pdtsaudaihoc.ntu.edu.vn/Uploads/22/files/pdf/Q%C4%90%201131.pdf"
+    },
+    {
+      "doc_id": 64,
+      "category": "Học phí & Lệ phí",
+      "doc_type": "Tài liệu gây nhiễu (Tuần 4)",
+      "question": "Học phí ngành Kế toán và ngành Quản trị khách sạn chương trình đạt kiểm định chất lượng được quy định bao nhiêu tiền mỗi tín chỉ?",
+      "answer": "Theo Quyết định 1131/QĐ-ĐHNT của Trường Đại học Nha Trang, cả hai ngành Kế toán và Quản trị khách sạn (áp dụng từ Khóa 65 trở về sau) đều thu 310.000 VNĐ/tín chỉ đối với học phần giáo dục tổng quát và 500.000 VNĐ/tín chỉ đối với học phần cơ sở và chuyên ngành.",
+      "keywords": "học phí, kế toán, quản trị khách sạn, tín chỉ, 500.000 VNĐ/tín chỉ",
+      "source_title": "Quyết định 1131/QĐ-ĐHNT - Bảng học phí ngành Kế toán & Quản trị khách sạn",
+      "source_url": "https://pdtsaudaihoc.ntu.edu.vn/Uploads/22/files/pdf/Q%C4%90%201131.pdf"
+    },
+    {
+      "doc_id": 65,
+      "category": "Học phí & Lệ phí",
+      "doc_type": "Tài liệu gây nhiễu (Tuần 4)",
+      "question": "Học phí mỗi tín chỉ của ngành Nuôi trồng thủy sản và Công nghệ chế biến thủy sản đạt kiểm định chất lượng là bao nhiêu?",
+      "answer": "Sinh viên theo học hai ngành truyền thống đạt kiểm định chất lượng là Nuôi trồng thủy sản và Công nghệ chế biến thủy sản (áp dụng từ Khóa 63 trở về sau theo QĐ 1131) đóng mức học phí 310.000 VNĐ/tín chỉ cho học phần giáo dục tổng quát và 550.000 VNĐ/tín chỉ cho học phần cơ sở và chuyên ngành.",
+      "keywords": "học phí, nuôi trồng thủy sản, công nghệ chế biến thủy sản, 550.000 VNĐ/tín chỉ",
+      "source_title": "Quyết định 1131/QĐ-ĐHNT - Học phí nhóm ngành Thủy sản đạt kiểm định",
+      "source_url": "https://pdtsaudaihoc.ntu.edu.vn/Uploads/22/files/pdf/Q%C4%90%201131.pdf"
+    },
+    {
+      "doc_id": 66,
+      "category": "Học phí & Lệ phí",
+      "doc_type": "Tài liệu gây nhiễu (Tuần 4)",
+      "question": "Mức thu học phí ngành Kỹ thuật tàu thủy đạt kiểm định chất lượng tại Trường Đại học Nha Trang là bao nhiêu?",
+      "answer": "Theo bảng mức thu học phí trình độ đại học chính quy đạt kiểm định chất lượng (QĐ 1131), ngành Kỹ thuật tàu thủy (áp dụng từ Khóa 63 trở về sau) có đơn giá 310.000 VNĐ/tín chỉ đối với học phần giáo dục tổng quát và 550.000 VNĐ/tín chỉ đối với học phần cơ sở và chuyên ngành.",
+      "keywords": "học phí, kỹ thuật tàu thủy, tín chỉ, kiểm định chất lượng, 550.000 VNĐ/tín chỉ",
+      "source_title": "Quyết định 1131/QĐ-ĐHNT - Học phí ngành Kỹ thuật tàu thủy",
+      "source_url": "https://pdtsaudaihoc.ntu.edu.vn/Uploads/22/files/pdf/Q%C4%90%201131.pdf"
+    },
+    {
+      "doc_id": 67,
+      "category": "Học phí & Lệ phí",
+      "doc_type": "Tài liệu gây nhiễu (Tuần 4)",
+      "question": "Mức thu học phí ngành Công nghệ sinh học chương trình đạt kiểm định chất lượng bao nhiêu tiền một tín chỉ?",
+      "answer": "Ngành Công nghệ sinh học đạt kiểm định chất lượng tại Trường Đại học Nha Trang (áp dụng từ Khóa 63 trở về sau theo QĐ 1131) có mức học phí 310.000 VNĐ/tín chỉ cho học phần giáo dục tổng quát và 530.000 VNĐ/tín chỉ cho học phần cơ sở và chuyên ngành.",
+      "keywords": "học phí, công nghệ sinh học, tín chỉ, 530.000 VNĐ/tín chỉ",
+      "source_title": "Quyết định 1131/QĐ-ĐHNT - Học phí ngành Công nghệ sinh học",
+      "source_url": "https://pdtsaudaihoc.ntu.edu.vn/Uploads/22/files/pdf/Q%C4%90%201131.pdf"
+    },
+    {
+      "doc_id": 68,
+      "category": "Học phí & Lệ phí",
+      "doc_type": "Tài liệu gây nhiễu (Tuần 4)",
+      "question": "Sinh viên theo học chương trình đặt hàng Minh Phú - NTU phải đóng mức học phí mỗi học kỳ là bao nhiêu?",
+      "answer": "Đối với các chương trình đặt hàng Minh Phú - NTU (Nuôi trồng thủy sản, Công nghệ chế biến thủy sản, Công nghệ sinh học), Tập đoàn Thủy sản Minh Phú tài trợ 75% kinh phí đào tạo (tương đương 22.000.000 VNĐ/năm). Người học chỉ cần đóng phần còn lại khoảng 3.300.000 VNĐ ở Học kỳ 1 và 4.000.000 VNĐ ở Học kỳ 2, đồng thời có cơ hội nhận học bổng 25% phần còn lại và miễn phí ký túc xá.",
+      "keywords": "học phí, Minh Phú NTU, hỗ trợ 75%, 3.300.000 VNĐ, miễn phí ký túc xá",
+      "source_title": "Thông báo 831/TB-ĐHNT & Chương trình đặt hàng Minh Phú - NTU",
+      "source_url": "https://tuyensinh.ntu.edu.vn/Uploads/2/files/2024/NTU-NTTS-Minh-Phu.pdf"
+    },
+    {
+      "doc_id": 69,
+      "category": "Học phí & Lệ phí",
+      "doc_type": "Tài liệu gây nhiễu (Tuần 4)",
+      "question": "Mức học phí đào tạo Sau đại học (Thạc sĩ) năm học 2025-2026 theo từng khối ngành tại Trường Đại học Nha Trang là bao nhiêu?",
+      "answer": "Học phí tạm thu trình độ Thạc sĩ năm học 2025-2026 tại Trường Đại học Nha Trang tính theo tín chỉ phân theo khối ngành: Khối ngành III (Kinh doanh, quản lý: Kế toán, Tài chính - Ngân hàng, QTKD) và Khối ngành VII (Nhân văn, du lịch) là 910.000 VNĐ/tín chỉ; Khối ngành IV (Công nghệ sinh học) là 970.000 VNĐ/tín chỉ; Khối ngành V (Kỹ thuật, công nghệ, thông tin, chế biến, thủy sản) là 1.050.000 VNĐ/tín chỉ.",
+      "keywords": "học phí thạc sĩ, sau đại học, 910.000 VNĐ, 1.050.000 VNĐ/tín chỉ",
+      "source_title": "Thông báo Tuyển sinh đào tạo Thạc sĩ 2026 - Đợt 3 - Trường ĐH Nha Trang",
+      "source_url": "https://tuyensinh.ntu.edu.vn/thong-bao/thong-bao-tuyen-sinh-dao-tao-thac-si-2026---dot-3-"
+    },
+    {
+      "doc_id": 70,
+      "category": "Học phí & Lệ phí",
+      "doc_type": "Tài liệu gây nhiễu (Tuần 4)",
+      "question": "Sinh viên tra cứu công nợ học phí học kỳ ở đâu và nếu quá hạn đóng học phí sẽ bị xử lý thế nào?",
+      "answer": "Theo Thông báo của Phòng Kế hoạch - Tài chính, người học đăng nhập tài khoản cá nhân tại cổng sinhvien.ntu.edu.vn để kiểm tra số tiền nợ học phí căn cứ theo kết quả đăng ký học phần và nộp qua hệ thống ngân hàng trước hạn chót thông báo. Nếu quá thời hạn quy định mà chưa hoàn thành học phí, Nhà trường sẽ hủy kết quả đăng ký học phần và xử lý theo quy chế đào tạo.",
+      "keywords": "tra cứu công nợ, sinhvien.ntu.edu.vn, quá hạn học phí, hủy kết quả đăng ký học phần",
+      "source_title": "Thông báo về việc đóng học phí Học kỳ 1 năm học 2025-2026 - Phòng KHTC NTU",
+      "source_url": "https://phongkhtc.ntu.edu.vn/thong-bao/thong-bao-ve-viec-dong-hoc-phi-hoc-ky-1-nam-hoc-2025-2026"
+    },
+    {
+      "doc_id": 71,
+      "category": "Ngành đào tạo & Điểm chuẩn",
+      "doc_type": "Tài liệu gây nhiễu (Tuần 4)",
+      "question": "Điểm chuẩn trúng tuyển ngành Công nghệ thông tin Chương trình đặc biệt (7480201A) và Công nghệ thông tin Việt - Nhật (7480201B) là bao nhiêu?",
+      "answer": "Theo bảng Điểm trúng tuyển năm 2025 của Trường Đại học Nha Trang, cả hai chương trình Công nghệ thông tin đặc biệt (mã 7480201A) và Công nghệ thông tin Việt - Nhật (mã 7480201B) có mức điểm chuẩn thi tốt nghiệp THPT là 22,00 điểm (tổ hợp Toán*1) hoặc 20,75 điểm (tổ hợp Toán*2/Tiếng Anh*2), điểm ĐGNL ĐHQG-HCM là 580,88 điểm, ĐGNL ĐHQG-HN là 76,49 điểm và yêu cầu điểm học bạ Tiếng Anh từ 5,0.",
+      "keywords": "điểm chuẩn, công nghệ thông tin đặc biệt, 7480201A, Việt Nhật, 7480201B, 580.88",
+      "source_title": "Điểm trúng tuyển các năm của Trường Đại học Nha Trang (Bảng điểm chuẩn 2025)",
+      "source_url": "https://tuyensinh.ntu.edu.vn/diem-trung-tuyen-cac-nam"
+    },
+    {
+      "doc_id": 72,
+      "category": "Ngành đào tạo & Điểm chuẩn",
+      "doc_type": "Tài liệu gây nhiễu (Tuần 4)",
+      "question": "Điểm chuẩn trúng tuyển ngành Khoa học máy tính (mã ngành 7480101) tại Trường Đại học Nha Trang là bao nhiêu?",
+      "answer": "Ngành Khoa học máy tính (mã 7480101) thuộc chương trình chuẩn có mức điểm chuẩn trúng tuyển năm 2025 tương đương ngành Công nghệ thông tin: 22,00 điểm theo tổ hợp Toán*1 (hoặc 20,75 điểm theo tổ hợp Toán*2) ở phương thức thi tốt nghiệp THPT, 580,88 điểm ĐGNL ĐHQG-HCM, 76,49 điểm ĐGNL ĐHQG-HN và điểm điều kiện Tiếng Anh học bạ tối thiểu 5,0.",
+      "keywords": "điểm chuẩn, khoa học máy tính, 7480101, 22 điểm, ĐGNL 580.88",
+      "source_title": "Điểm trúng tuyển các năm của Trường Đại học Nha Trang",
+      "source_url": "https://tuyensinh.ntu.edu.vn/diem-trung-tuyen-cac-nam"
+    },
+    {
+      "doc_id": 73,
+      "category": "Ngành đào tạo & Điểm chuẩn",
+      "doc_type": "Tài liệu gây nhiễu (Tuần 4)",
+      "question": "Điểm chuẩn trúng tuyển ngành Marketing (7340115) và ngành Luật / Luật kinh tế (7380101) tại Trường Đại học Nha Trang cao bao nhiêu?",
+      "answer": "Marketing (7340115) và Luật (7380101, gồm chuyên ngành Luật và Luật kinh tế) là hai ngành có điểm chuẩn dẫn đầu trường năm 2025 với mức 27,00 điểm thi THPT (Toán*1) hoặc 25,47 điểm (nhân hệ số 2), 737,29 điểm ĐGNL ĐHQG-HCM và 95,74 điểm ĐGNL ĐHQG-HN (riêng năm 2026 ngành Luật đạt 26,59 điểm tổ hợp TV2A).",
+      "keywords": "điểm chuẩn, Marketing, 7340115, Luật, Luật kinh tế, 7380101, 27 điểm",
+      "source_title": "Điểm trúng tuyển các năm & Thông báo điểm chuẩn 2026 - Tuyển sinh NTU",
+      "source_url": "https://tuyensinh.ntu.edu.vn/thong-bao/thong-bao-diem-chuan-trung-tuyen-nam-2026"
+    },
+    {
+      "doc_id": 74,
+      "category": "Ngành đào tạo & Điểm chuẩn",
+      "doc_type": "Tài liệu gây nhiễu (Tuần 4)",
+      "question": "Điểm chuẩn ngành Quản trị kinh doanh (7340101), Kinh doanh thương mại (7340121) và Tài chính - Ngân hàng (7340201) là bao nhiêu?",
+      "answer": "Nhóm ba ngành Quản trị kinh doanh (7340101 và 7340101A), Kinh doanh thương mại (7340121) và Tài chính - Ngân hàng (7340201 và 7340201A) đều có điểm chuẩn năm 2025 là 24,00 điểm THPT (Toán*1) hoặc 22,64 điểm (Toán*2/Tiếng Anh*2), 633,82 điểm ĐGNL ĐHQG-HCM, 83,74 điểm ĐGNL ĐHQG-HN (năm 2026 mã 7340101A và 7340201A đạt 86,11 điểm ĐGNL HN).",
+      "keywords": "điểm chuẩn, quản trị kinh doanh, kinh doanh thương mại, tài chính ngân hàng, 24 điểm",
+      "source_title": "Điểm trúng tuyển các năm của Trường Đại học Nha Trang",
+      "source_url": "https://tuyensinh.ntu.edu.vn/diem-trung-tuyen-cac-nam"
+    },
+    {
+      "doc_id": 75,
+      "category": "Ngành đào tạo & Điểm chuẩn",
+      "doc_type": "Tài liệu gây nhiễu (Tuần 4)",
+      "question": "Điểm chuẩn trúng tuyển ngành Kế toán (7340301) và ngành Kiểm toán (7340302) tại Trường Đại học Nha Trang là bao nhiêu?",
+      "answer": "Ngành Kế toán (mã chuẩn 7340301 và mã đặc biệt 7340301A) cùng ngành Kiểm toán (7340302) có mức điểm chuẩn năm 2025 là 23,00 điểm THPT (Toán*1) hoặc 21,70 điểm (Toán*2/Tiếng Anh*2), 607,35 điểm ĐGNL ĐHQG-HCM, 80,11 điểm ĐGNL ĐHQG-HN (năm 2026 mã 7340301A đạt 83,89 điểm ĐGNL HN) và điều kiện học bạ Tiếng Anh từ 5,0.",
+      "keywords": "điểm chuẩn, kế toán, kiểm toán, 7340301, 7340302, 23 điểm",
+      "source_title": "Điểm trúng tuyển các năm của Trường Đại học Nha Trang",
+      "source_url": "https://tuyensinh.ntu.edu.vn/diem-trung-tuyen-cac-nam"
+    },
+    {
+      "doc_id": 76,
+      "category": "Ngành đào tạo & Điểm chuẩn",
+      "doc_type": "Tài liệu gây nhiễu (Tuần 4)",
+      "question": "Điểm chuẩn trúng tuyển và điều kiện môn Tiếng Anh của ngành Ngôn ngữ Anh (7220201) là bao nhiêu?",
+      "answer": "Ngành Ngôn ngữ Anh (mã 7220201, gồm 4 chuyên ngành: Biên - phiên dịch, Tiếng Anh du lịch, Giảng dạy Tiếng Anh, Song ngữ Anh - Trung) có điểm chuẩn năm 2025 là 25,00 điểm THPT (Toán*1) hoặc 23,58 điểm (hệ số 2), 666,21 điểm ĐGNL HCM và yêu cầu điểm điều kiện Tiếng Anh học bạ tối thiểu 7,0 (năm 2026 đạt 24,61 điểm tổ hợp TVA2 và 776,22 điểm ĐGNL HCM).",
+      "keywords": "điểm chuẩn, ngôn ngữ anh, 7220201, tiếng anh 7.0, 25 điểm, 776.22",
+      "source_title": "Thông báo điểm chuẩn trúng tuyển năm 2026 & Điểm chuẩn các năm NTU",
+      "source_url": "https://tuyensinh.ntu.edu.vn/thong-bao/thong-bao-diem-chuan-trung-tuyen-nam-2026"
+    },
+    {
+      "doc_id": 77,
+      "category": "Ngành đào tạo & Điểm chuẩn",
+      "doc_type": "Tài liệu gây nhiễu (Tuần 4)",
+      "question": "Điểm chuẩn ngành Quản trị khách sạn (7810201A) và Quản trị dịch vụ du lịch lữ hành (7810103A, 7810103P) là bao nhiêu?",
+      "answer": "Năm 2025, hai chương trình đặc biệt Quản trị khách sạn (7810201A) và Quản trị dịch vụ du lịch lữ hành (7810103A) cùng đạt điểm chuẩn 25,00 điểm THPT (23,58 điểm hệ số 2) và 666,21 điểm ĐGNL HCM (điều kiện Tiếng Anh 5,0). Riêng chương trình song ngữ Pháp - Việt (7810103P) có điểm chuẩn là 23,00 điểm THPT và 607,35 điểm ĐGNL HCM.",
+      "keywords": "điểm chuẩn, quản trị khách sạn, du lịch lữ hành, 7810201A, 7810103P, song ngữ Pháp Việt",
+      "source_title": "Điểm trúng tuyển các năm của Trường Đại học Nha Trang",
+      "source_url": "https://tuyensinh.ntu.edu.vn/diem-trung-tuyen-cac-nam"
+    },
+    {
+      "doc_id": 78,
+      "category": "Ngành đào tạo & Điểm chuẩn",
+      "doc_type": "Tài liệu gây nhiễu (Tuần 4)",
+      "question": "Điểm chuẩn trúng tuyển ngành Kỹ thuật ô tô (7520130) và ngành Kỹ thuật điện (7520201) tại Trường Đại học Nha Trang là bao nhiêu?",
+      "answer": "Hai ngành Kỹ thuật ô tô (mã 7520130) và Kỹ thuật điện - điện tử (mã 7520201) thuộc nhóm kỹ thuật có mức điểm chuẩn năm 2025 là 21,50 điểm theo tổ hợp Toán*1 (20,28 điểm theo tổ hợp Toán*2), 567,64 điểm ĐGNL ĐHQG-HCM và 74,68 điểm ĐGNL ĐHQG-HN.",
+      "keywords": "điểm chuẩn, kỹ thuật ô tô, kỹ thuật điện, 7520130, 7520201, 21.5 điểm",
+      "source_title": "Điểm trúng tuyển các năm của Trường Đại học Nha Trang",
+      "source_url": "https://tuyensinh.ntu.edu.vn/diem-trung-tuyen-cac-nam"
+    },
+    {
+      "doc_id": 79,
+      "category": "Ngành đào tạo & Điểm chuẩn",
+      "doc_type": "Tài liệu gây nhiễu (Tuần 4)",
+      "question": "Điểm chuẩn trúng tuyển các ngành Kỹ thuật cơ khí (7520103), Kỹ thuật cơ điện tử (7520114) và Kỹ thuật điều khiển tự động hóa (7520216) là bao nhiêu?",
+      "answer": "Ba ngành Kỹ thuật cơ khí (7520103), Kỹ thuật cơ điện tử - Hệ thống nhúng và IoT (7520114) và Kỹ thuật điều khiển và tự động hóa (7520216) đều có điểm chuẩn trúng tuyển năm 2025 là 21,00 điểm THPT (Toán*1) hoặc 19,81 điểm (Toán*2), 554,41 điểm ĐGNL ĐHQG-HCM và 72,87 điểm ĐGNL ĐHQG-HN.",
+      "keywords": "điểm chuẩn, kỹ thuật cơ khí, cơ điện tử, IoT, tự động hóa, 21 điểm",
+      "source_title": "Điểm trúng tuyển các năm của Trường Đại học Nha Trang",
+      "source_url": "https://tuyensinh.ntu.edu.vn/diem-trung-tuyen-cac-nam"
+    },
+    {
+      "doc_id": 80,
+      "category": "Ngành đào tạo & Điểm chuẩn",
+      "doc_type": "Tài liệu gây nhiễu (Tuần 4)",
+      "question": "Điểm chuẩn trúng tuyển nhóm ngành Công nghệ thực phẩm (7540101), Công nghệ sinh học (7420201) và nhóm ngành Thủy sản Minh Phú - NTU là bao nhiêu?",
+      "answer": "Năm 2025, ngành Công nghệ thực phẩm (7540101) và Kỹ thuật tàu thủy (7520122) có điểm chuẩn 20,50 điểm THPT (541,17 điểm ĐGNL HCM). Các ngành Công nghệ sinh học (7420201), Công nghệ chế biến thủy sản (7540105), Kỹ thuật xây dựng (7580201) cùng toàn bộ nhóm chương trình đặt hàng Minh Phú - NTU và Hải Vương - NTU có điểm chuẩn 20,00 điểm THPT (527,94 điểm ĐGNL HCM).",
+      "keywords": "điểm chuẩn, công nghệ thực phẩm, công nghệ sinh học, thủy sản, Minh Phú NTU, 20 điểm",
+      "source_title": "Điểm trúng tuyển các năm của Trường Đại học Nha Trang",
+      "source_url": "https://tuyensinh.ntu.edu.vn/diem-trung-tuyen-cac-nam"
+    },
+    {
+      "doc_id": 81,
+      "category": "Ngành đào tạo & Điểm chuẩn",
+      "doc_type": "Tài liệu gây nhiễu (Tuần 4)",
+      "question": "Các tổ hợp xét tuyển mới (thang điểm 40, Toán nhân hệ số 2) của ngành Công nghệ thông tin đặc biệt (7480201A) và CNTT Việt - Nhật (7480201B) gồm những môn nào?",
+      "answer": "Theo Đề án tuyển sinh Trường Đại học Nha Trang, ngành Công nghệ thông tin đặc biệt (7480201A) xét 4 tổ hợp môn có Toán*2 và Ngữ văn kết hợp với 1 môn: Tin học, Vật lý, Công nghệ hoặc Tiếng Anh (có điều kiện Tiếng Anh). Riêng ngành Công nghệ thông tin Việt - Nhật (7480201B) mở rộng thêm tổ hợp thứ 5 gồm Toán*2, Ngữ văn và Tiếng Nhật.",
+      "keywords": "tổ hợp xét tuyển, công nghệ thông tin đặc biệt, 7480201A, 7480201B, Toán nhân hệ số 2, Tin học",
+      "source_title": "Tra cứu ngành & Tổ hợp xét tuyển Đại học - Tuyển sinh NTU",
+      "source_url": "https://tuyensinh.ntu.edu.vn/%C4%91ai-hoc/tra-cuu-nganh-to-hop-xet-tuyen"
+    },
+    {
+      "doc_id": 82,
+      "category": "Ngành đào tạo & Điểm chuẩn",
+      "doc_type": "Tài liệu gây nhiễu (Tuần 4)",
+      "question": "Tổ hợp xét tuyển của nhóm ngành Quản trị kinh doanh, Kế toán và Tài chính - Ngân hàng chương trình đặc biệt gồm những tổ hợp nào?",
+      "answer": "Cả ba chương trình đặc biệt Quản trị kinh doanh (7340101A), Kế toán (7340301A) và Tài chính - Ngân hàng (7340201A) đều áp dụng 4 tổ hợp xét tuyển chung gồm: (1) Toán*2, Ngữ văn, Tiếng Anh; (2) Toán*2, Ngữ văn, Giáo dục kinh tế và pháp luật; (3) Toán*2, Ngữ văn, Tin học; (4) Toán*2, Ngữ văn, Địa lý, kèm điều kiện điểm Tiếng Anh.",
+      "keywords": "tổ hợp xét tuyển, quản trị kinh doanh, kế toán, tài chính ngân hàng, giáo dục kinh tế và pháp luật",
+      "source_title": "Ngành nghề và chỉ tiêu tuyển sinh của Trường Đại học Nha Trang",
+      "source_url": "https://tuyensinh.ntu.edu.vn/de-an-tuyen-sinh/nganh-nghe-va-chi-tieu"
+    },
+    {
+      "doc_id": 83,
+      "category": "Ngành đào tạo & Điểm chuẩn",
+      "doc_type": "Tài liệu gây nhiễu (Tuần 4)",
+      "question": "Ngành Quản trị dịch vụ du lịch và lữ hành chương trình song ngữ Pháp - Việt (7810103P) xét tuyển những tổ hợp môn nào?",
+      "answer": "Chương trình song ngữ Pháp - Việt ngành Quản trị dịch vụ du lịch và lữ hành (mã 7810103P) xét tuyển 5 tổ hợp môn: (1) Toán*2, Ngữ văn, Tiếng Anh; (2) Toán*2, Ngữ văn, Tiếng Pháp; (3) Toán*2, Ngữ văn, Giáo dục kinh tế và pháp luật; (4) Toán*2, Ngữ văn, Lịch sử; (5) Toán*2, Ngữ văn, Địa lý.",
+      "keywords": "tổ hợp xét tuyển, du lịch lữ hành, song ngữ Pháp Việt, 7810103P, Tiếng Pháp",
+      "source_title": "Tra cứu ngành & Tổ hợp xét tuyển Đại học - Tuyển sinh NTU",
+      "source_url": "https://tuyensinh.ntu.edu.vn/%C4%91ai-hoc/tra-cuu-nganh-to-hop-xet-tuyen"
+    },
+    {
+      "doc_id": 84,
+      "category": "Ngành đào tạo & Điểm chuẩn",
+      "doc_type": "Tài liệu gây nhiễu (Tuần 4)",
+      "question": "Các tổ hợp xét tuyển vào nhóm ngành Thủy sản đặt hàng Minh Phú - NTU và Hải Vương - NTU có những môn thi nào?",
+      "answer": "Các chương trình đặt hàng Công nghệ chế biến thủy sản (7540105MP, 7540105HV), Nuôi trồng thủy sản (7620301MP) và Công nghệ sinh học (7420201MP) xét 6 tổ hợp gồm: Toán-Văn-Anh-Sinh, Toán-Văn-Anh-Hóa, Toán*2-Văn-Sinh, Toán*2-Văn-Hóa, Toán*2-Văn-Công nghệ và Toán*2-Văn-Tiếng Anh. Riêng Cơ khí thủy sản thông minh (7520103MP) sử dụng các tổ hợp có Vật lý, Tin học, Công nghệ.",
+      "keywords": "tổ hợp xét tuyển, Minh Phú NTU, Hải Vương NTU, sinh học, hóa học, cơ khí thủy sản thông minh",
+      "source_title": "Ngành nghề và chỉ tiêu tuyển sinh của Trường Đại học Nha Trang",
+      "source_url": "https://tuyensinh.ntu.edu.vn/de-an-tuyen-sinh/nganh-nghe-va-chi-tieu"
+    },
+    {
+      "doc_id": 85,
+      "category": "Phương thức xét tuyển",
+      "doc_type": "Tài liệu gây nhiễu (Tuần 4)",
+      "question": "Trường Đại học Nha Trang có tổ chức đợt xét tuyển bổ sung năm 2026 không và áp dụng cho những ngành nào?",
+      "answer": "Sau khi kết thúc đợt xét tuyển chính thức tháng 8/2026, Trường Đại học Nha Trang ban hành Thông báo xét tuyển bổ sung năm 2026 đối với các ngành/chương trình đào tạo còn chỉ tiêu (bao gồm một số ngành thuộc chương trình chuẩn và chương trình đặt hàng doanh nghiệp Minh Phú - NTU như Công nghệ sinh học, nhóm ngành Thủy sản).",
+      "keywords": "xét tuyển bổ sung, năm 2026, còn chỉ tiêu, công nghệ sinh học",
+      "source_title": "Thông báo xét tuyển bổ sung năm 2026 - Cổng Tuyển sinh NTU",
+      "source_url": "https://tuyensinh.ntu.edu.vn/thong-bao/thong-bao-xet-tuyen-bo-sung-nam-2026"
+    },
+    {
+      "doc_id": 86,
+      "category": "Chuẩn đầu ra & Đào tạo",
+      "doc_type": "Tài liệu gây nhiễu (Tuần 4)",
+      "question": "Theo Quy chế đào tạo đại học mới ban hành năm 2025 (QĐ 1052), sinh viên học lực trung bình và yếu kém được đăng ký tối thiểu và tối đa bao nhiêu tín chỉ mỗi học kỳ?",
+      "answer": "Theo Quyết định 1052/QĐ-ĐHNT ngày 17/07/2025, sinh viên xếp hạng học lực trung bình trở lên của học kỳ liền trước phải đăng ký tối thiểu 15 tín chỉ và tối đa 27 tín chỉ mỗi học kỳ chính (đối với CTĐT 4 năm) hoặc tối đa 32 tín chỉ (đối với CTĐT kỹ sư 4,5 năm và chương trình đặc biệt đặt hàng doanh nghiệp). Sinh viên học lực yếu kém chỉ được đăng ký tối thiểu 12 tín chỉ và tối đa 18 tín chỉ.",
+      "keywords": "tín chỉ tối thiểu, tối đa, Quyết định 1052, 15 đến 27 tín chỉ, 32 tín chỉ, học lực yếu kém",
+      "source_title": "Quyết định 1052/QĐ-ĐHNT (17/07/2025) Quy chế đào tạo trình độ Đại học",
+      "source_url": "https://pdtdaihoc.ntu.edu.vn/uploads/38//245-Quyet%20dinh%201052%20(17-7-2025)%20ban%20hanh%20quy%20che%20dao%20tao%20trinh%20do%20dai%20hoc%20cua%20Truong%20DHNT.pdf"
+    },
+    {
+      "doc_id": 87,
+      "category": "Chuẩn đầu ra & Đào tạo",
+      "doc_type": "Tài liệu gây nhiễu (Tuần 4)",
+      "question": "Điều kiện để sinh viên được dự thi kết thúc học phần và thời hạn xin rút bớt học phần đã đăng ký là gì?",
+      "answer": "Theo Quy chế đào tạo đại học Trường Đại học Nha Trang, sinh viên chỉ được dự thi giữa kỳ và cuối kỳ khi tham dự tối thiểu 80% số giờ học phần lý thuyết, 100% số giờ thực hành/thí nghiệm/thực tập và hoàn thành học phí đầy đủ. Việc rút bớt học phần đã đăng ký chỉ được chấp nhận trong 2 tuần đầu học kỳ chính (hoặc tuần đầu học kỳ phụ); quá hạn nếu bỏ học sẽ bị điểm 0.",
+      "keywords": "điều kiện dự thi, 80% lý thuyết, 100% thực hành, rút bớt học phần, học kỳ chính",
+      "source_title": "Quyết định 753/QĐ-ĐHNT Ban hành Quy chế đào tạo trình độ đại học NTU",
+      "source_url": "https://pdtdaihoc.ntu.edu.vn/uploads/38/files/Van-Ban-Truong/20210813_Q%C4%90%20753%20vv%20ban%20h%C3%A0nh%20Quy%20ch%E1%BA%BF%20%C4%91%C3%A0o%20t%E1%BA%A1o_13_8_2021.pdf"
+    },
+    {
+      "doc_id": 88,
+      "category": "Chuẩn đầu ra & Đào tạo",
+      "doc_type": "Tài liệu gây nhiễu (Tuần 4)",
+      "question": "Chương trình học phần Ngoại ngữ bắt buộc khối không chuyên ngữ tại Trường Đại học Nha Trang gồm mấy tín chỉ và đánh giá 4 kỹ năng thế nào?",
+      "answer": "Theo Quyết định 1128/QĐ-ĐHNT, sinh viên khối không chuyên ngữ bắt buộc tích lũy 08 tín chỉ ngoại ngữ gồm 02 học phần (Ngoại ngữ A2.1–A2.2 cho nhóm ngành 1 hoặc B1.1–B1.2 cho nhóm ngành 2). Đánh giá quá trình chiếm 50% gồm kỹ năng Nghe (25%) và Nói (25%); thi kết thúc học phần chiếm 50% gồm Đọc (25%) và Viết (25%), yêu cầu hoàn thành tối thiểu 70% bài tập online để được dự thi.",
+      "keywords": "học phần ngoại ngữ, 8 tín chỉ, A2.1, B1.1, đánh giá 4 kỹ năng, nghe nói đọc viết",
+      "source_title": "Quyết định 1128/QĐ-ĐHNT Quy định đào tạo ngoại ngữ khối không chuyên ngữ",
+      "source_url": "https://pdtdaihoc.ntu.edu.vn/uploads/38/files/Van-Ban-Truong/20180920_QD%201128_Quy%20dinh%20dao%20tao%20ngoai%20ngu%20khoi%20khong%20chuyen%20ngu.pdf"
+    },
+    {
+      "doc_id": 89,
+      "category": "Ký túc xá & Đời sống",
+      "doc_type": "Tài liệu gây nhiễu (Tuần 4)",
+      "question": "Nội quy giờ đóng mở cửa, kiểm soát thẻ từ và tiện nghi các dãy nhà K1 đến K8 tại Ký túc xá Trường Đại học Nha Trang quy định ra sao?",
+      "answer": "Hệ thống Ký túc xá ĐH Nha Trang gồm 8 tòa nhà K1–K8 với 405 phòng khép kín (hơn 2.682 chỗ ở), trong đó khu trung tâm K2–K5 kiểm soát ra vào bằng thẻ từ và nhận dạng, riêng K1 cao cấp có máy lạnh, tivi, máy nước nóng. Theo Nội quy KTX, giờ mở cửa là 5h30 và đóng cửa lúc 23h00, cấm nấu ăn trong phòng, cấm rượu bia, đánh bài và hút thuốc trong khuôn viên KTX.",
+      "keywords": "nội quy ký túc xá, giờ đóng cửa 23h00, thẻ từ, K1 cao cấp, 405 phòng, cấm nấu ăn",
+      "source_title": "Nội quy Ký túc xá & Hệ thống KTX - Trung tâm Phục vụ Trường học NTU",
+      "source_url": "https://trungtampvth.ntu.edu.vn/uploads/44/files/Documents/KTX/Noi%20quy%20KTX.pdf"
+    },
+    {
+      "doc_id": 90,
+      "category": "Học bổng & Chính sách",
+      "doc_type": "Tài liệu gây nhiễu (Tuần 4)",
+      "question": "Chính sách miễn giảm học phí mới theo Nghị định 238/2025/NĐ-CP và quỹ Học bổng Khuyến khích học tập thực tế tại Trường Đại học Nha Trang triển khai thế nào?",
+      "answer": "Nhà trường thực hiện chế độ miễn giảm học phí và hỗ trợ chi phí học tập cập nhật theo Nghị định 238/2025/NĐ-CP và quy định mức Học bổng Khuyến khích học tập tại QĐ 317/QĐ-ĐHNT. Mỗi học kỳ, trường chi trả hơn 6 tỷ đồng học bổng khuyến khích học tập cho hơn 1.000 sinh viên đạt kết quả học tập và rèn luyện cao, cùng hơn 800 triệu đồng miễn giảm học phí và trợ cấp xã hội cho sinh viên chính sách.",
+      "keywords": "Nghị định 238/2025, học bổng khuyến khích học tập, Quyết định 317, trợ cấp xã hội, miễn giảm học phí",
+      "source_title": "Diễn đàn đối thoại chính sách hỗ trợ sinh viên & QĐ 317/QĐ-ĐHNT",
+      "source_url": "https://ntu.edu.vn/tin-tuc/dien-dan-doi-thoai-chinh-sach-ho-tro-sinh-vien-tai-truong-dai-hoc-nha-trang"
+    }
+  ],
+  "test_queries": [
+    {
+      "query_id": 1,
+      "query_text": "Cho em hỏi ký hiệu mã trường mình lúc điền nguyện vọng trên web Bộ là chữ gì ạ?",
+      "ground_truth_doc_id": 1,
+      "expected_category": "Thông tin chung",
+      "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+      "query_type": "Paraphrased / Tự nhiên"
+    },
+    {
+      "query_id": 2,
+      "query_text": "Khi làm hồ sơ xét tuyển đại học trên mạng thì mã định danh của ĐH Nha Trang viết tắt là mấy chữ cái?",
+      "ground_truth_doc_id": 1,
+      "expected_category": "Thông tin chung",
+      "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+      "query_type": "GenAI Paraphrase (Lexical Gap)"
+    },
+    {
+      "query_id": 3,
+      "query_text": "Khuôn viên chính trên đồi La San nằm ở số mấy đường nào tại Nha Trang?",
+      "ground_truth_doc_id": 2,
+      "expected_category": "Thông tin chung",
+      "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+      "query_type": "Paraphrased / Tự nhiên"
+    },
+    {
+      "query_id": 4,
+      "query_text": "Trụ sở chính của trường đại học Nha Trang tọa lạc ở địa chỉ nào vậy?",
+      "ground_truth_doc_id": 2,
+      "expected_category": "Thông tin chung",
+      "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+      "query_type": "GenAI Paraphrase (Tự nhiên)"
+    },
+    {
+      "query_id": 5,
+      "query_text": "NTU là đại học nhà nước hay trường tư vậy mọi người?",
+      "ground_truth_doc_id": 3,
+      "expected_category": "Thông tin chung",
+      "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+      "query_type": "Từ đồng nghĩa (Lexical Gap)"
+    },
+    {
+      "query_id": 6,
+      "query_text": "Trường mình trực thuộc Bộ Giáo dục đào tạo quản lý và thành lập từ năm nào?",
+      "ground_truth_doc_id": 3,
+      "expected_category": "Thông tin chung",
+      "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+      "query_type": "GenAI Paraphrase (Tự nhiên)"
+    },
+    {
+      "query_id": 7,
+      "query_text": "Em muốn gọi điện hỏi phòng đào tạo về tuyển sinh thì liên hệ số máy nào?",
+      "ground_truth_doc_id": 4,
+      "expected_category": "Thông tin chung",
+      "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+      "query_type": "Paraphrased / Tự nhiên"
+    },
+    {
+      "query_id": 8,
+      "query_text": "Cho xin địa chỉ hòm thư email và fanpage chính thức của bộ phận tư vấn tuyển sinh nhà trường?",
+      "ground_truth_doc_id": 4,
+      "expected_category": "Thông tin chung",
+      "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+      "query_type": "GenAI Paraphrase (Lexical Gap)"
+    },
+    {
+      "query_id": 9,
+      "query_text": "Mỗi khóa trường tuyển tổng cộng khoảng bao nhiêu tân sinh viên cho tất cả các ngành?",
+      "ground_truth_doc_id": 5,
+      "expected_category": "Thông tin chung",
+      "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+      "query_type": "Từ đồng nghĩa (Lexical Gap)"
+    },
+    {
+      "query_id": 10,
+      "query_text": "Hiện tại trường đào tạo khoảng bao nhiêu ngành học ở bậc đại học chính quy?",
+      "ground_truth_doc_id": 5,
+      "expected_category": "Thông tin chung",
+      "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+      "query_type": "GenAI Paraphrase (Tự nhiên)"
+    },
+    {
+      "query_id": 11,
+      "query_text": "Ngoài hệ chuẩn đại trà trường có mở lớp chất lượng cao hay hệ POHE không?",
+      "ground_truth_doc_id": 6,
+      "expected_category": "Thông tin chung",
+      "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+      "query_type": "Truy vấn thực tế"
+    },
+    {
+      "query_id": 12,
+      "query_text": "Chương trình đào tạo định hướng ứng dụng và chương trình song ngữ Anh Việt của trường là như thế nào?",
+      "ground_truth_doc_id": 6,
+      "expected_category": "Thông tin chung",
+      "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+      "query_type": "GenAI Paraphrase (Tự nhiên)"
+    },
+    {
+      "query_id": 13,
+      "query_text": "Bằng kỹ sư cử nhân của trường cấp có dùng đi xin việc toàn quốc hay đi du học được không?",
+      "ground_truth_doc_id": 7,
+      "expected_category": "Thông tin chung",
+      "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+      "query_type": "Paraphrased / Tự nhiên"
+    },
+    {
+      "query_id": 14,
+      "query_text": "Tốt nghiệp xong bằng đại học của trường có thuộc hệ thống văn bằng quốc gia hợp pháp không?",
+      "ground_truth_doc_id": 7,
+      "expected_category": "Thông tin chung",
+      "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+      "query_type": "GenAI Paraphrase (Lexical Gap)"
+    },
+    {
+      "query_id": 15,
+      "query_text": "Văn phòng khoa CNTT nằm ở khu nhà nào trong trường để em lên nộp đơn?",
+      "ground_truth_doc_id": 8,
+      "expected_category": "Thông tin chung",
+      "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+      "query_type": "Truy vấn thực tế"
+    },
+    {
+      "query_id": 16,
+      "query_text": "Bộ môn Kỹ thuật phần mềm và Mạng máy tính thuộc khoa nào quản lý và đặt ở tòa nhà nào?",
+      "ground_truth_doc_id": 8,
+      "expected_category": "Thông tin chung",
+      "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+      "query_type": "GenAI Paraphrase (Tự nhiên)"
+    },
+    {
+      "query_id": 17,
+      "query_text": "Năm nay trường nhận thí sinh theo mấy hình thức xét tuyển đầu vào?",
+      "ground_truth_doc_id": 9,
+      "expected_category": "Phương thức xét tuyển",
+      "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+      "query_type": "Từ đồng nghĩa (Lexical Gap)"
+    },
+    {
+      "query_id": 18,
+      "query_text": "Những cách thức xét tuyển vào đại học chính quy của trường gồm xét học bạ, điểm thi THPT và gì nữa?",
+      "ground_truth_doc_id": 9,
+      "expected_category": "Phương thức xét tuyển",
+      "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+      "query_type": "GenAI Paraphrase (Lexical Gap)"
+    },
+    {
+      "query_id": 19,
+      "query_text": "Nộp học bạ cấp 3 thì lấy điểm tổng kết lớp 11 với học kỳ 1 lớp 12 hay sao ạ?",
+      "ground_truth_doc_id": 10,
+      "expected_category": "Phương thức xét tuyển",
+      "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+      "query_type": "Truy vấn thực tế"
+    },
+    {
+      "query_id": 20,
+      "query_text": "Xét tuyển học bạ THPT thì trường cộng điểm trung bình của 3 học kỳ nào?",
+      "ground_truth_doc_id": 10,
+      "expected_category": "Phương thức xét tuyển",
+      "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+      "query_type": "GenAI Paraphrase (Tự nhiên)"
+    },
+    {
+      "query_id": 21,
+      "query_text": "Em tốt nghiệp cấp 3 từ năm ngoái giờ nộp hồ sơ xét học bạ lại có được nhận không?",
+      "ground_truth_doc_id": 11,
+      "expected_category": "Phương thức xét tuyển",
+      "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+      "query_type": "Từ đồng nghĩa (Lexical Gap)"
+    },
+    {
+      "query_id": 22,
+      "query_text": "Thí sinh tự do thi lại hoặc đã ra trường THPT các khóa trước có nộp học bạ xét tuyển được không?",
+      "ground_truth_doc_id": 11,
+      "expected_category": "Phương thức xét tuyển",
+      "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+      "query_type": "GenAI Paraphrase (Tự nhiên)"
+    },
+    {
+      "query_id": 23,
+      "query_text": "Thi đánh giá năng lực ĐHQG TPHCM phải đạt tối thiểu mấy trăm điểm mới đủ sàn nộp vào trường?",
+      "ground_truth_doc_id": 12,
+      "expected_category": "Phương thức xét tuyển",
+      "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+      "query_type": "Truy vấn thực tế"
+    },
+    {
+      "query_id": 24,
+      "query_text": "Điểm nhận hồ sơ tối thiểu đối với kỳ thi đánh giá năng lực của ĐHQG Hà Nội và TPHCM là bao nhiêu?",
+      "ground_truth_doc_id": 12,
+      "expected_category": "Phương thức xét tuyển",
+      "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+      "query_type": "GenAI Paraphrase (Lexical Gap)"
+    },
+    {
+      "query_id": 25,
+      "query_text": "Em có bằng IELTS 5.5 thì có được đổi thành điểm 10 môn Anh khi xét tuyển không?",
+      "ground_truth_doc_id": 13,
+      "expected_category": "Phương thức xét tuyển",
+      "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+      "query_type": "Truy vấn thực tế"
+    },
+    {
+      "query_id": 26,
+      "query_text": "Có chứng chỉ TOEIC hay IELTS quốc tế còn hạn thì được quy đổi sang điểm môn tiếng Anh mức mấy điểm?",
+      "ground_truth_doc_id": 13,
+      "expected_category": "Phương thức xét tuyển",
+      "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+      "query_type": "GenAI Paraphrase (Tự nhiên)"
+    },
+    {
+      "query_id": 27,
+      "query_text": "Đạt giải ba học sinh giỏi quốc gia cấp 3 có được vào thẳng đại học không cần thi không?",
+      "ground_truth_doc_id": 14,
+      "expected_category": "Phương thức xét tuyển",
+      "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+      "query_type": "Từ đồng nghĩa (Lexical Gap)"
+    },
+    {
+      "query_id": 28,
+      "query_text": "Học sinh đạt giải kỳ thi Khoa học kỹ thuật cấp quốc gia có thuộc diện tuyển thẳng vào trường không?",
+      "ground_truth_doc_id": 14,
+      "expected_category": "Phương thức xét tuyển",
+      "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+      "query_type": "GenAI Paraphrase (Lexical Gap)"
+    },
+    {
+      "query_id": 29,
+      "query_text": "Xét vào ngành du lịch hay ngôn ngữ Anh có đòi hỏi điểm liệt hay điểm sàn riêng môn tiếng Anh không?",
+      "ground_truth_doc_id": 15,
+      "expected_category": "Phương thức xét tuyển",
+      "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+      "query_type": "Paraphrased / Tự nhiên"
+    },
+    {
+      "query_id": 30,
+      "query_text": "Các ngành như Quản trị khách sạn hay Ngôn ngữ Anh có áp dụng điều kiện điểm sàn môn Tiếng Anh không?",
+      "ground_truth_doc_id": 15,
+      "expected_category": "Phương thức xét tuyển",
+      "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+      "query_type": "GenAI Paraphrase (Tự nhiên)"
+    },
+    {
+      "query_id": 31,
+      "query_text": "Để nguyện vọng 2 hay nguyện vọng 3 vào trường thì điểm chuẩn có bị tính cao hơn nguyện vọng 1 không?",
+      "ground_truth_doc_id": 16,
+      "expected_category": "Phương thức xét tuyển",
+      "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+      "query_type": "Truy vấn thực tế"
+    },
+    {
+      "query_id": 32,
+      "query_text": "Khi xét tuyển các nguyện vọng được xét công bằng theo điểm từ cao xuống thấp hay ưu tiên nguyện vọng 1 trước?",
+      "ground_truth_doc_id": 16,
+      "expected_category": "Phương thức xét tuyển",
+      "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+      "query_type": "GenAI Paraphrase (Lexical Gap)"
+    },
+    {
+      "query_id": 33,
+      "query_text": "Trên 22.5 điểm thì điểm cộng vùng miền KV1 KV2 bị trừ giảm dần theo công thức nào?",
+      "ground_truth_doc_id": 17,
+      "expected_category": "Phương thức xét tuyển",
+      "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+      "query_type": "Paraphrased / Tự nhiên"
+    },
+    {
+      "query_id": 34,
+      "query_text": "Cách tính điểm cộng ưu tiên khu vực KV1, KV2-NT khi tổng điểm 3 môn thi trên 22.5 điểm?",
+      "ground_truth_doc_id": 17,
+      "expected_category": "Phương thức xét tuyển",
+      "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+      "query_type": "GenAI Paraphrase (Tự nhiên)"
+    },
+    {
+      "query_id": 35,
+      "query_text": "Link web nộp hồ sơ học bạ online và chỗ up ảnh chụp học bạ của trường là trang nào?",
+      "ground_truth_doc_id": 18,
+      "expected_category": "Phương thức xét tuyển",
+      "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+      "query_type": "Truy vấn thực tế"
+    },
+    {
+      "query_id": 36,
+      "query_text": "Quy trình điền thông tin và nộp ảnh chụp học bạ trên cổng xettuyen.ntu.edu.vn thực hiện ra sao?",
+      "ground_truth_doc_id": 18,
+      "expected_category": "Phương thức xét tuyển",
+      "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+      "query_type": "GenAI Paraphrase (Tự nhiên)"
+    },
+    {
+      "query_id": 37,
+      "query_text": "Học CNTT ở trường sau này được phân vào những hướng chuyên sâu nào như phần mềm hay mạng?",
+      "ground_truth_doc_id": 19,
+      "expected_category": "Ngành đào tạo & Điểm chuẩn",
+      "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+      "query_type": "Từ đồng nghĩa (Lexical Gap)"
+    },
+    {
+      "query_id": 38,
+      "query_text": "Mã ngành 7480201 của trường gồm những chuyên ngành đào tạo nào trong khoa Công nghệ thông tin?",
+      "ground_truth_doc_id": 19,
+      "expected_category": "Ngành đào tạo & Điểm chuẩn",
+      "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+      "query_type": "GenAI Paraphrase (Lexical Gap)"
+    },
+    {
+      "query_id": 39,
+      "query_text": "Muốn thi vào ngành công nghệ thông tin thì đăng ký khối thi nào được ạ?",
+      "ground_truth_doc_id": 20,
+      "expected_category": "Ngành đào tạo & Điểm chuẩn",
+      "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+      "query_type": "Từ đồng nghĩa (Lexical Gap)"
+    },
+    {
+      "query_id": 40,
+      "query_text": "Tổ hợp D07 và A01 xét vào ngành Công nghệ thông tin gồm những môn thi nào?",
+      "ground_truth_doc_id": 20,
+      "expected_category": "Ngành đào tạo & Điểm chuẩn",
+      "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+      "query_type": "GenAI Paraphrase (Tự nhiên)"
+    },
+    {
+      "query_id": 41,
+      "query_text": "Mấy năm trước thi tốt nghiệp THPT khoảng bao nhiêu điểm mới đậu ngành CNTT?",
+      "ground_truth_doc_id": 21,
+      "expected_category": "Ngành đào tạo & Điểm chuẩn",
+      "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+      "query_type": "Paraphrased / Tự nhiên"
+    },
+    {
+      "query_id": 42,
+      "query_text": "Muốn đậu ngành CNTT bằng điểm đánh giá năng lực hoặc điểm thi THPT thì cần khoảng bao nhiêu điểm?",
+      "ground_truth_doc_id": 21,
+      "expected_category": "Ngành đào tạo & Điểm chuẩn",
+      "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+      "query_type": "GenAI Paraphrase (Lexical Gap)"
+    },
+    {
+      "query_id": 43,
+      "query_text": "Theo hướng công nghệ phần mềm thì sinh viên được học những ngôn ngữ lập trình và hệ quản trị CSDL nào?",
+      "ground_truth_doc_id": 22,
+      "expected_category": "Ngành đào tạo & Điểm chuẩn",
+      "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+      "query_type": "Truy vấn thực tế"
+    },
+    {
+      "query_id": 44,
+      "query_text": "Sinh viên học chuyên ngành Kỹ thuật phần mềm có được học ASP.NET Core, Java, C++ và kiểm thử QA không?",
+      "ground_truth_doc_id": 22,
+      "expected_category": "Ngành đào tạo & Điểm chuẩn",
+      "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+      "query_type": "GenAI Paraphrase (Tự nhiên)"
+    },
+    {
+      "query_id": 45,
+      "query_text": "Trường mình có dạy ngành kỹ thuật ô tô, cơ khí chế tạo máy hay tự động hóa không?",
+      "ground_truth_doc_id": 23,
+      "expected_category": "Ngành đào tạo & Điểm chuẩn",
+      "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+      "query_type": "Truy vấn thực tế"
+    },
+    {
+      "query_id": 46,
+      "query_text": "Ở trường có đào tạo các ngành kỹ thuật điện, tàu thủy, công nghệ thực phẩm và công nghệ sinh học không?",
+      "ground_truth_doc_id": 23,
+      "expected_category": "Ngành đào tạo & Điểm chuẩn",
+      "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+      "query_type": "GenAI Paraphrase (Tự nhiên)"
+    },
+    {
+      "query_id": 47,
+      "query_text": "Các ngành bên khối kinh tế như marketing, kế toán, quản trị khách sạn trường có đào tạo không?",
+      "ground_truth_doc_id": 24,
+      "expected_category": "Ngành đào tạo & Điểm chuẩn",
+      "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+      "query_type": "Truy vấn thực tế"
+    },
+    {
+      "query_id": 48,
+      "query_text": "Nhóm ngành Tài chính ngân hàng, Kinh doanh thương mại và Quản trị du lịch lữ hành có ở trường không?",
+      "ground_truth_doc_id": 24,
+      "expected_category": "Ngành đào tạo & Điểm chuẩn",
+      "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+      "query_type": "GenAI Paraphrase (Lexical Gap)"
+    },
+    {
+      "query_id": 49,
+      "query_text": "Những ngành truyền thống về nuôi trồng chế biến thủy sản và tàu biển của trường gồm ngành nào?",
+      "ground_truth_doc_id": 25,
+      "expected_category": "Ngành đào tạo & Điểm chuẩn",
+      "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+      "query_type": "Paraphrased / Tự nhiên"
+    },
+    {
+      "query_id": 50,
+      "query_text": "Trường có những ngành nào thuộc mảng khoa học hàng hải, bệnh học thủy sản và quản lý thủy sản?",
+      "ground_truth_doc_id": 25,
+      "expected_category": "Ngành đào tạo & Điểm chuẩn",
+      "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+      "query_type": "GenAI Paraphrase (Tự nhiên)"
+    },
+    {
+      "query_id": 51,
+      "query_text": "Mỗi khóa khoa CNTT lấy khoảng bao nhiêu chỉ tiêu và chia thành mấy lớp?",
+      "ground_truth_doc_id": 26,
+      "expected_category": "Ngành đào tạo & Điểm chuẩn",
+      "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+      "query_type": "Truy vấn thực tế"
+    },
+    {
+      "query_id": 52,
+      "query_text": "Hàng năm khoa CNTT tuyển sinh bao nhiêu sinh viên và chia lớp học thực hành như thế nào?",
+      "ground_truth_doc_id": 26,
+      "expected_category": "Ngành đào tạo & Điểm chuẩn",
+      "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+      "query_type": "GenAI Paraphrase (Lexical Gap)"
+    },
+    {
+      "query_id": 53,
+      "query_text": "Khoa ngoại ngữ có chuyên ngành tiếng Anh thương mại hay tiếng Anh du lịch không?",
+      "ground_truth_doc_id": 27,
+      "expected_category": "Ngành đào tạo & Điểm chuẩn",
+      "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+      "query_type": "Truy vấn thực tế"
+    },
+    {
+      "query_id": 54,
+      "query_text": "Ngoài tiếng Anh ra thì ở trường sinh viên có được học thêm tiếng Nhật, tiếng Hàn hay tiếng Trung không?",
+      "ground_truth_doc_id": 27,
+      "expected_category": "Ngành đào tạo & Điểm chuẩn",
+      "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+      "query_type": "GenAI Paraphrase (Tự nhiên)"
+    },
+    {
+      "query_id": 55,
+      "query_text": "Xét khối A00 với khối D01 vào ngành CNTT thì điểm đậu có bằng nhau không hay khối A lấy cao hơn?",
+      "ground_truth_doc_id": 28,
+      "expected_category": "Ngành đào tạo & Điểm chuẩn",
+      "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+      "query_type": "Từ đồng nghĩa (Lexical Gap)"
+    },
+    {
+      "query_id": 56,
+      "query_text": "Giữa các tổ hợp xét tuyển A00, A01, D01, D07 vào ngành CNTT có lấy mức điểm chuẩn khác nhau không?",
+      "ground_truth_doc_id": 28,
+      "expected_category": "Ngành đào tạo & Điểm chuẩn",
+      "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+      "query_type": "GenAI Paraphrase (Tự nhiên)"
+    },
+    {
+      "query_id": 57,
+      "query_text": "Trung bình 1 kỳ sinh viên công nghệ thông tin đóng khoảng mấy triệu tiền học phí?",
+      "ground_truth_doc_id": 29,
+      "expected_category": "Học phí & Lệ phí",
+      "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+      "query_type": "Paraphrased / Tự nhiên"
+    },
+    {
+      "query_id": 58,
+      "query_text": "Đơn giá 1 tín chỉ của ngành Công nghệ thông tin hệ đại trà hiện nay khoảng bao nhiêu tiền?",
+      "ground_truth_doc_id": 29,
+      "expected_category": "Học phí & Lệ phí",
+      "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+      "query_type": "GenAI Paraphrase (Lexical Gap)"
+    },
+    {
+      "query_id": 59,
+      "query_text": "Tại sao tiền 1 tín chỉ bên ngành kỹ thuật CNTT lại đắt hơn bên ngành kế toán kinh tế?",
+      "ground_truth_doc_id": 30,
+      "expected_category": "Học phí & Lệ phí",
+      "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+      "query_type": "Từ đồng nghĩa (Lexical Gap)"
+    },
+    {
+      "query_id": 60,
+      "query_text": "Chênh lệch mức thu học phí tín chỉ giữa khối ngành kỹ thuật công nghệ và khối kinh tế xã hội là bao nhiêu?",
+      "ground_truth_doc_id": 30,
+      "expected_category": "Học phí & Lệ phí",
+      "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+      "query_type": "GenAI Paraphrase (Tự nhiên)"
+    },
+    {
+      "query_id": 61,
+      "query_text": "Nhà trường thu tiền học phí qua quét QR ngân hàng nào hay nộp tiền mặt tại phòng tài chính?",
+      "ground_truth_doc_id": 31,
+      "expected_category": "Học phí & Lệ phí",
+      "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+      "query_type": "Truy vấn thực tế"
+    },
+    {
+      "query_id": 62,
+      "query_text": "Có thể đóng tiền học phí học kỳ bằng cách chuyển khoản qua Vietcombank, BIDV, Agribank được không?",
+      "ground_truth_doc_id": 31,
+      "expected_category": "Học phí & Lệ phí",
+      "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+      "query_type": "GenAI Paraphrase (Tự nhiên)"
+    },
+    {
+      "query_id": 63,
+      "query_text": "Tiền phí đăng ký mỗi nguyện vọng trên cổng Bộ GD&ĐT là bao nhiêu và thanh toán sao ạ?",
+      "ground_truth_doc_id": 32,
+      "expected_category": "Học phí & Lệ phí",
+      "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+      "query_type": "Paraphrased / Tự nhiên"
+    },
+    {
+      "query_id": 64,
+      "query_text": "Mỗi nguyện vọng đăng ký xét tuyển đại học tốn bao nhiêu tiền lệ phí và nộp qua ví điện tử nào?",
+      "ground_truth_doc_id": 32,
+      "expected_category": "Học phí & Lệ phí",
+      "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+      "query_type": "GenAI Paraphrase (Lexical Gap)"
+    },
+    {
+      "query_id": 65,
+      "query_text": "Ngày đầu tiên đến trường nhập học cần chuẩn bị đóng những khoản tiền bảo hiểm khám sức khỏe gì?",
+      "ground_truth_doc_id": 33,
+      "expected_category": "Học phí & Lệ phí",
+      "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+      "query_type": "Truy vấn thực tế"
+    },
+    {
+      "query_id": 66,
+      "query_text": "Tân sinh viên lúc mới nhập học phải đóng tiền làm thẻ sinh viên và tiền bảo hiểm y tế bắt buộc phải không?",
+      "ground_truth_doc_id": 33,
+      "expected_category": "Học phí & Lệ phí",
+      "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+      "query_type": "GenAI Paraphrase (Tự nhiên)"
+    },
+    {
+      "query_id": 67,
+      "query_text": "Nếu rớt môn bị điểm F phải đăng ký học lại thì tiền học phí môn đó tính thế nào?",
+      "ground_truth_doc_id": 34,
+      "expected_category": "Học phí & Lệ phí",
+      "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+      "query_type": "Từ đồng nghĩa (Lexical Gap)"
+    },
+    {
+      "query_id": 68,
+      "query_text": "Đăng ký học cải thiện điểm từ điểm D lên điểm cao hơn thì học phí môn đó tính theo đơn giá nào?",
+      "ground_truth_doc_id": 34,
+      "expected_category": "Học phí & Lệ phí",
+      "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+      "query_type": "GenAI Paraphrase (Lexical Gap)"
+    },
+    {
+      "query_id": 69,
+      "query_text": "Gia đình em kẹt tiền chưa đóng kịp học phí đúng hạn thì xin làm đơn lùi hạn nộp ở phòng nào?",
+      "ground_truth_doc_id": 35,
+      "expected_category": "Học phí & Lệ phí",
+      "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+      "query_type": "Từ đồng nghĩa (Lexical Gap)"
+    },
+    {
+      "query_id": 70,
+      "query_text": "Làm sao để không bị khóa tài khoản đăng ký môn học khi sinh viên chưa có đủ tiền đóng học phí đúng hạn?",
+      "ground_truth_doc_id": 35,
+      "expected_category": "Học phí & Lệ phí",
+      "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+      "query_type": "GenAI Paraphrase (Lexical Gap)"
+    },
+    {
+      "query_id": 71,
+      "query_text": "Em muốn xin giấy xác nhận đang học tại trường để về quê vay vốn ngân hàng chính sách được không?",
+      "ground_truth_doc_id": 36,
+      "expected_category": "Học phí & Lệ phí",
+      "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+      "query_type": "Truy vấn thực tế"
+    },
+    {
+      "query_id": 72,
+      "query_text": "Thủ tục xin giấy xác nhận sinh viên đầu học kỳ để làm hồ sơ vay vốn Ngân hàng Chính sách xã hội ở đâu?",
+      "ground_truth_doc_id": 36,
+      "expected_category": "Học phí & Lệ phí",
+      "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+      "query_type": "GenAI Paraphrase (Tự nhiên)"
+    },
+    {
+      "query_id": 73,
+      "query_text": "Sinh viên CNTT trước khi xét ra trường phải nộp chứng chỉ TOEIC mấy trăm điểm?",
+      "ground_truth_doc_id": 37,
+      "expected_category": "Chuẩn đầu ra & Đào tạo",
+      "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+      "query_type": "Truy vấn thực tế"
+    },
+    {
+      "query_id": 74,
+      "query_text": "Chuẩn đầu ra ngoại ngữ bậc 3/6 khung Việt Nam hoặc IELTS tối thiểu mấy chấm thì đủ điều kiện tốt nghiệp?",
+      "ground_truth_doc_id": 37,
+      "expected_category": "Chuẩn đầu ra & Đào tạo",
+      "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+      "query_type": "GenAI Paraphrase (Lexical Gap)"
+    },
+    {
+      "query_id": 75,
+      "query_text": "Chương trình cử nhân học khoảng bao nhiêu tín chỉ và có được đăng ký học vượt ra trường sớm 3 năm không?",
+      "ground_truth_doc_id": 38,
+      "expected_category": "Chuẩn đầu ra & Đào tạo",
+      "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+      "query_type": "Paraphrased / Tự nhiên"
+    },
+    {
+      "query_id": 76,
+      "query_text": "Tổng số tín chỉ toàn khóa của hệ đại học chính quy là bao nhiêu và học mấy học kỳ thì xong?",
+      "ground_truth_doc_id": 38,
+      "expected_category": "Chuẩn đầu ra & Đào tạo",
+      "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+      "query_type": "GenAI Paraphrase (Tự nhiên)"
+    },
+    {
+      "query_id": 77,
+      "query_text": "Học hết năm nhất điểm GPA bao nhiêu thì được đăng ký học thêm bằng đại học thứ 2?",
+      "ground_truth_doc_id": 39,
+      "expected_category": "Chuẩn đầu ra & Đào tạo",
+      "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+      "query_type": "Từ đồng nghĩa (Lexical Gap)"
+    },
+    {
+      "query_id": 78,
+      "query_text": "Điều kiện điểm tích lũy GPA sau năm thứ nhất để được đăng ký học cùng lúc 2 ngành tại trường là gì?",
+      "ground_truth_doc_id": 39,
+      "expected_category": "Chuẩn đầu ra & Đào tạo",
+      "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+      "query_type": "GenAI Paraphrase (Tự nhiên)"
+    },
+    {
+      "query_id": 79,
+      "query_text": "Điểm tổng kết môn được 7.5 hay 8.5 thì đổi sang điểm chữ A B C và hệ 4 là bao nhiêu?",
+      "ground_truth_doc_id": 40,
+      "expected_category": "Chuẩn đầu ra & Đào tạo",
+      "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+      "query_type": "Truy vấn thực tế"
+    },
+    {
+      "query_id": 80,
+      "query_text": "Mức điểm từ 4.0 đến 5.4 và dưới 4.0 được quy đổi sang điểm chữ D, D+, F và hệ 4 như thế nào?",
+      "ground_truth_doc_id": 40,
+      "expected_category": "Chuẩn đầu ra & Đào tạo",
+      "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+      "query_type": "GenAI Paraphrase (Lexical Gap)"
+    },
+    {
+      "query_id": 81,
+      "query_text": "Học kỳ hè tháng 6 tháng 7 có bắt buộc mọi sinh viên phải đăng ký học không ạ?",
+      "ground_truth_doc_id": 41,
+      "expected_category": "Chuẩn đầu ra & Đào tạo",
+      "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+      "query_type": "Truy vấn thực tế"
+    },
+    {
+      "query_id": 82,
+      "query_text": "Thời gian bắt đầu học kỳ 1, học kỳ 2 và học kỳ phụ trong năm học của trường vào những tháng nào?",
+      "ground_truth_doc_id": 41,
+      "expected_category": "Chuẩn đầu ra & Đào tạo",
+      "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+      "query_type": "GenAI Paraphrase (Tự nhiên)"
+    },
+    {
+      "query_id": 83,
+      "query_text": "Mỗi học kỳ chính nhà trường bắt buộc đăng ký ít nhất mấy tín chỉ và nhiều nhất mấy tín chỉ?",
+      "ground_truth_doc_id": 42,
+      "expected_category": "Chuẩn đầu ra & Đào tạo",
+      "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+      "query_type": "Từ đồng nghĩa (Lexical Gap)"
+    },
+    {
+      "query_id": 84,
+      "query_text": "Sinh viên học lực bình thường mỗi kỳ được đăng ký tối đa bao nhiêu tín chỉ và tối thiểu mấy tín chỉ?",
+      "ground_truth_doc_id": 42,
+      "expected_category": "Chuẩn đầu ra & Đào tạo",
+      "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+      "query_type": "GenAI Paraphrase (Tự nhiên)"
+    },
+    {
+      "query_id": 85,
+      "query_text": "Môn đồ án cơ sở ngành CNTT làm vào năm mấy và khác gì với đồ án tốt nghiệp cuối khóa?",
+      "ground_truth_doc_id": 43,
+      "expected_category": "Chuẩn đầu ra & Đào tạo",
+      "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+      "query_type": "Truy vấn thực tế"
+    },
+    {
+      "query_id": 86,
+      "query_text": "Học phần Đồ án tốt nghiệp của ngành Công nghệ thông tin được làm vào học kỳ nào của năm thứ 4?",
+      "ground_truth_doc_id": 43,
+      "expected_category": "Chuẩn đầu ra & Đào tạo",
+      "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+      "query_type": "GenAI Paraphrase (Lexical Gap)"
+    },
+    {
+      "query_id": 87,
+      "query_text": "Để được cầm bằng tốt nghiệp ra trường cần hoàn thành đủ những điều kiện chứng chỉ nào?",
+      "ground_truth_doc_id": 44,
+      "expected_category": "Chuẩn đầu ra & Đào tạo",
+      "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+      "query_type": "Paraphrased / Tự nhiên"
+    },
+    {
+      "query_id": 88,
+      "query_text": "Điểm trung bình tích lũy GPA tối thiểu đạt mấy chấm và cần những chứng chỉ gì để được xét công nhận tốt nghiệp?",
+      "ground_truth_doc_id": 44,
+      "expected_category": "Chuẩn đầu ra & Đào tạo",
+      "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+      "query_type": "GenAI Paraphrase (Tự nhiên)"
+    },
+    {
+      "query_id": 89,
+      "query_text": "Đậu thủ khoa đầu vào của trường có được miễn 100% tiền học phí năm nhất không?",
+      "ground_truth_doc_id": 45,
+      "expected_category": "Học bổng & Chính sách",
+      "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+      "query_type": "Truy vấn thực tế"
+    },
+    {
+      "query_id": 90,
+      "query_text": "Ngoài học bổng khuyến khích học tập từng kỳ, trường có học bổng doanh nghiệp và học bổng thủ khoa ngành không?",
+      "ground_truth_doc_id": 45,
+      "expected_category": "Học bổng & Chính sách",
+      "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+      "query_type": "GenAI Paraphrase (Lexical Gap)"
+    },
+    {
+      "query_id": 91,
+      "query_text": "Muốn săn học bổng khuyến khích học tập mỗi kỳ thì cần đăng ký mấy tín chỉ và không bị điểm dưới mức nào?",
+      "ground_truth_doc_id": 46,
+      "expected_category": "Học bổng & Chính sách",
+      "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+      "query_type": "Truy vấn thực tế"
+    },
+    {
+      "query_id": 92,
+      "query_text": "Bị 1 môn điểm D hoặc điểm F trong học kỳ thì có còn đủ điều kiện xét học bổng khuyến khích học tập không?",
+      "ground_truth_doc_id": 46,
+      "expected_category": "Học bổng & Chính sách",
+      "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+      "query_type": "GenAI Paraphrase (Lexical Gap)"
+    },
+    {
+      "query_id": 93,
+      "query_text": "Con thương binh hoặc thuộc diện hộ nghèo cận nghèo thì được giảm bao nhiêu phần trăm học phí?",
+      "ground_truth_doc_id": 47,
+      "expected_category": "Học bổng & Chính sách",
+      "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+      "query_type": "Paraphrased / Tự nhiên"
+    },
+    {
+      "query_id": 94,
+      "query_text": "Đối tượng sinh viên khuyết tật, dân tộc thiểu số rất ít người được miễn giảm học phí theo Nghị định 81 thế nào?",
+      "ground_truth_doc_id": 47,
+      "expected_category": "Học bổng & Chính sách",
+      "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+      "query_type": "GenAI Paraphrase (Tự nhiên)"
+    },
+    {
+      "query_id": 95,
+      "query_text": "Học các ngành truyền thống như khai thác thủy sản hay tàu thủy có được trường hỗ trợ học bổng riêng không?",
+      "ground_truth_doc_id": 48,
+      "expected_category": "Học bổng & Chính sách",
+      "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+      "query_type": "Paraphrased / Tự nhiên"
+    },
+    {
+      "query_id": 96,
+      "query_text": "Thí sinh trúng tuyển ngành Quản lý thủy sản hay Kỹ thuật tàu thủy có được giảm 50% đến 100% học phí kỳ đầu không?",
+      "ground_truth_doc_id": 48,
+      "expected_category": "Học bổng & Chính sách",
+      "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+      "query_type": "GenAI Paraphrase (Lexical Gap)"
+    },
+    {
+      "query_id": 97,
+      "query_text": "Sinh viên giỏi tiếng Anh có cơ hội xin học bổng đi trao đổi 1 kỳ bên châu Âu hay Nhật Hàn không?",
+      "ground_truth_doc_id": 49,
+      "expected_category": "Học bổng & Chính sách",
+      "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+      "query_type": "Từ đồng nghĩa (Lexical Gap)"
+    },
+    {
+      "query_id": 98,
+      "query_text": "Các chương trình học bổng Erasmus+ châu Âu hay NORHED Na Uy của trường dành cho đối tượng sinh viên nào?",
+      "ground_truth_doc_id": 49,
+      "expected_category": "Học bổng & Chính sách",
+      "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+      "query_type": "GenAI Paraphrase (Tự nhiên)"
+    },
+    {
+      "query_id": 99,
+      "query_text": "Điểm rèn luyện chấm theo thang 100 dựa vào đâu và có bắt buộc khi xét học bổng không?",
+      "ground_truth_doc_id": 50,
+      "expected_category": "Học bổng & Chính sách",
+      "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+      "query_type": "Truy vấn thực tế"
+    },
+    {
+      "query_id": 100,
+      "query_text": "Kết quả chấm điểm rèn luyện hàng kỳ ảnh hưởng thế nào đến việc xét ở ký túc xá và phân loại bằng tốt nghiệp?",
+      "ground_truth_doc_id": 50,
+      "expected_category": "Học bổng & Chính sách",
+      "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+      "query_type": "GenAI Paraphrase (Lexical Gap)"
+    },
+    {
+      "query_id": 101,
+      "query_text": "Nhà nội trú từ K1 tới K8 trong trường thu tiền phòng mỗi tháng bao nhiêu một người?",
+      "ground_truth_doc_id": 51,
+      "expected_category": "Ký túc xá & Đời sống",
+      "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+      "query_type": "Từ đồng nghĩa (Lexical Gap)"
+    },
+    {
+      "query_id": 102,
+      "query_text": "Sức chứa khu ký túc xá của trường là bao nhiêu chỗ và đối tượng nào được ưu tiên bố trí phòng ở?",
+      "ground_truth_doc_id": 51,
+      "expected_category": "Ký túc xá & Đời sống",
+      "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+      "query_type": "GenAI Paraphrase (Tự nhiên)"
+    },
+    {
+      "query_id": 103,
+      "query_text": "Dàn máy tính ở phòng Lab thực hành của khoa CNTT có cài sẵn SQL Server, Visual Studio để học code không?",
+      "ground_truth_doc_id": 52,
+      "expected_category": "Ký túc xá & Đời sống",
+      "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+      "query_type": "Truy vấn thực tế"
+    },
+    {
+      "query_id": 104,
+      "query_text": "Khoa CNTT có phòng Lab chuyên đề mạng máy tính Cisco, lập trình .NET và thư viện số cho sinh viên không?",
+      "ground_truth_doc_id": 52,
+      "expected_category": "Ký túc xá & Đời sống",
+      "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+      "query_type": "GenAI Paraphrase (Lexical Gap)"
+    },
+    {
+      "query_id": 105,
+      "query_text": "Trong trường có phòng đọc sách máy lạnh với sân bóng đá cỏ nhân tạo cho sinh viên tập thể thao không?",
+      "ground_truth_doc_id": 53,
+      "expected_category": "Ký túc xá & Đời sống",
+      "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+      "query_type": "Từ đồng nghĩa (Lexical Gap)"
+    },
+    {
+      "query_id": 106,
+      "query_text": "Sinh viên có được sử dụng miễn phí sân bóng rổ, bóng chuyền và nhà thi đấu đa năng của trường không?",
+      "ground_truth_doc_id": 53,
+      "expected_category": "Ký túc xá & Đời sống",
+      "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+      "query_type": "GenAI Paraphrase (Tự nhiên)"
+    },
+    {
+      "query_id": 107,
+      "query_text": "Tân sinh viên ở tỉnh xa muốn xin vào ở ký túc xá thì đăng ký online lúc nhập học hay nộp đơn ở đâu?",
+      "ground_truth_doc_id": 54,
+      "expected_category": "Ký túc xá & Đời sống",
+      "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+      "query_type": "Paraphrased / Tự nhiên"
+    },
+    {
+      "query_id": 108,
+      "query_text": "Thủ tục nộp đơn xin vào ở nội trú tại Ban Quản lý Ký túc xá khi tân sinh viên đến nhập học như thế nào?",
+      "ground_truth_doc_id": 54,
+      "expected_category": "Ký túc xá & Đời sống",
+      "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+      "query_type": "GenAI Paraphrase (Tự nhiên)"
+    },
+    {
+      "query_id": 109,
+      "query_text": "Đi làm thủ tục nhập học trực tiếp cần mang theo bản sao học bạ, giấy khai sinh và những giấy tờ gì nữa?",
+      "ground_truth_doc_id": 55,
+      "expected_category": "Hồ sơ & Nhập học",
+      "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+      "query_type": "Paraphrased / Tự nhiên"
+    },
+    {
+      "query_id": 110,
+      "query_text": "Trong bộ hồ sơ nhập học của tân sinh viên có cần nộp sổ đoàn viên, căn cước công dân và giấy báo trúng tuyển không?",
+      "ground_truth_doc_id": 55,
+      "expected_category": "Hồ sơ & Nhập học",
+      "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+      "query_type": "GenAI Paraphrase (Lexical Gap)"
+    },
+    {
+      "query_id": 111,
+      "query_text": "Đã có tên trong danh sách đậu mà quên bấm xác nhận nhập học trên web Bộ GD&ĐT đúng hạn thì có bị hủy kết quả không?",
+      "ground_truth_doc_id": 56,
+      "expected_category": "Hồ sơ & Nhập học",
+      "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+      "query_type": "Truy vấn thực tế"
+    },
+    {
+      "query_id": 112,
+      "query_text": "Trúng tuyển vào trường nhưng quá thời hạn không xác nhận nhập học trực tuyến trên cổng Bộ GD&ĐT thì bị xử lý sao?",
+      "ground_truth_doc_id": 56,
+      "expected_category": "Hồ sơ & Nhập học",
+      "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+      "query_type": "GenAI Paraphrase (Tự nhiên)"
+    },
+    {
+      "query_id": 113,
+      "query_text": "Bạn nam trúng tuyển đại học cần xin giấy di chuyển nghĩa vụ quân sự ở xã nộp cho trường để tạm hoãn phải không?",
+      "ground_truth_doc_id": 57,
+      "expected_category": "Hồ sơ & Nhập học",
+      "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+      "query_type": "Truy vấn thực tế"
+    },
+    {
+      "query_id": 114,
+      "query_text": "Giấy giới thiệu di chuyển nghĩa vụ quân sự của nam sinh viên nhập học do cơ quan nào ở địa phương cấp?",
+      "ground_truth_doc_id": 57,
+      "expected_category": "Hồ sơ & Nhập học",
+      "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+      "query_type": "GenAI Paraphrase (Lexical Gap)"
+    },
+    {
+      "query_id": 115,
+      "query_text": "Học CNTT đến năm 3 năm 4 có được khoa giới thiệu qua FPT Software Nha Trang thực tập không?",
+      "ground_truth_doc_id": 58,
+      "expected_category": "Cơ hội việc làm & Thực tập",
+      "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+      "query_type": "Truy vấn thực tế"
+    },
+    {
+      "query_id": 116,
+      "query_text": "Những công ty công nghệ nào như TMA Solutions, NashTech, Viettel nhận sinh viên khoa CNTT thực tập?",
+      "ground_truth_doc_id": 58,
+      "expected_category": "Cơ hội việc làm & Thực tập",
+      "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+      "query_type": "GenAI Paraphrase (Tự nhiên)"
+    },
+    {
+      "query_id": 117,
+      "query_text": "Sinh viên tốt nghiệp đại học Nha Trang ra trường tỷ lệ kiếm được việc làm trong 1 năm đầu khoảng bao nhiêu phần trăm?",
+      "ground_truth_doc_id": 59,
+      "expected_category": "Cơ hội việc làm & Thực tập",
+      "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+      "query_type": "Paraphrased / Tự nhiên"
+    },
+    {
+      "query_id": 118,
+      "query_text": "Khảo sát sinh viên ngành kỹ thuật và CNTT sau khi tốt nghiệp 12 tháng có tỷ lệ việc làm đạt bao nhiêu?",
+      "ground_truth_doc_id": 59,
+      "expected_category": "Cơ hội việc làm & Thực tập",
+      "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+      "query_type": "GenAI Paraphrase (Lexical Gap)"
+    },
+    {
+      "query_id": 119,
+      "query_text": "Hàng năm trường có mở ngày hội tuyển dụng Job Fair cho các công ty vào phỏng vấn sinh viên năm cuối không?",
+      "ground_truth_doc_id": 60,
+      "expected_category": "Cơ hội việc làm & Thực tập",
+      "query_source": "Bạn học / Khảo sát sinh viên (Peer Student)",
+      "query_type": "Từ đồng nghĩa (Lexical Gap)"
+    },
+    {
+      "query_id": 120,
+      "query_text": "Sự kiện NTU Job Fair của trường thường diễn ra vào tháng mấy hàng năm và có bao nhiêu doanh nghiệp tham gia?",
+      "ground_truth_doc_id": 60,
+      "expected_category": "Cơ hội việc làm & Thực tập",
+      "query_source": "Công cụ GenAI (GenAI Paraphrase)",
+      "query_type": "GenAI Paraphrase (Tự nhiên)"
+    }
+  ]
+}
